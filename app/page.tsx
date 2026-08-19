@@ -13,16 +13,18 @@ const TAB_CARDS = [
 export default function HomePage() {
     return (
         <main className="relative overflow-hidden">
-            <img
-                src="/bg.JPG"
-                alt=""
-                className="fixed inset-0 -z-10 h-full w-full object-cover"
-            />
             <div className="fixed inset-0 -z-10 bg-[var(--background)]/40"/>
 
             <section className="flex min-h-[55vh] flex-col items-center justify-center gap-6 px-4 text-center">
                 <div className="relative h-56 w-56 overflow-hidden rounded-full sm:h-64 sm:w-64">
-                    <Image src="/profile.png" alt="Hindy Hamburger" fill className="object-cover" priority/>
+                    <Image
+                        src="/profile.webp"
+                        alt="Hindy Hamburger"
+                        fill
+                        sizes="(min-width: 640px) 256px, 224px"
+                        className="object-cover"
+                        priority
+                    />
                 </div>
                 <h1 className="text-4xl font-semibold tracking-tight text-black sm:text-5xl">
                     Hindy Hamburger
