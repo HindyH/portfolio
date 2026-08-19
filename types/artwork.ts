@@ -9,4 +9,5 @@ export interface Artwork {
     sizes: Record<string, string>; // "400" | "800" | "1600" -> path
     placeholder: string; // base64 data URL
     color: string; //hex
+    category: string;
 }

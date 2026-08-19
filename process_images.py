@@ -42,6 +42,7 @@ def get_data(filename:str, metadata:dict) -> dict:
         "year": entry.get("year", None),
         "medium": entry.get("medium", ""),
         "dimensions": entry.get("dimensions", ""),
+        "category": entry.get("category", ""),
     }
 
 
@@ -152,6 +153,7 @@ def process_one_image(path: Path, metadata: dict) -> dict | None:
             "year": meta["year"],
             "medium": meta["medium"],
             "dimensions": meta["dimensions"],
+            "category": meta["category"],
             "original_width": image.width,
             "original_height": image.height,
             "sizes": sizes_out,

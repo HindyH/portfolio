@@ -1,50 +1,39 @@
+import Link from "next/link";
 import Image from "next/image";
-import { getArtworks } from "@/lib/artworks";
-import type { Artwork } from "@/types/artwork";
 
-export default function GalleryPage() {
-  const artworks = getArtworks();
+export default function HomePage() {
+    return (
+        <main>
+            <section className="flex min-h-screen flex-col items-center justify-center gap-6 px-4 text-center">
+                <div className="relative h-40 w-40 overflow-hidden rounded-full sm:h-48 sm:w-48">
+                    <Image src="/profile.jpg" alt="Hindy Hamburger" fill className="object-cover" priority/>
+                </div>
+                <h1 className="text-4xl font-semibold tracking-tight text-neutral-900 sm:text-5xl">
+                    Hindy Hamburger
+                </h1>
+                <p className="max-w-xl text-neutral-600">
+                    A short blurb about me and what this site is about.
+                </p>
+                <a href="#sections" className="mt-8 animate-bounce text-neutral-400">↓</a>
+            </section>
 
-  return (
-    <main className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-      <h1 className="mb-8 text-3xl font-semibold tracking-tight text-neutral-900">
-        Gallery
-      </h1>
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-        {artworks.map((art) => (
-            <ArtworkCard key={art.id} art={art}/>
-        ))}
-      </div>
-    </main>
-  );
+            <section id="sections" className="mx-auto grid max-w-4xl grid-cols-1 gap-6 px-4 py-24 sm:grid-cols-3">
+                <TabCard href="/code" label="Code" description="Projects & experiments"/>
+                <TabCard href="/artwork" label="Artwork" description="Paintings & drawings"/>
+                <TabCard href="/photography" label="Photography" description="Photo collections"/>
+            </section>
+        </main>
+    );
 }
 
-function ArtworkCard({ art }: { art: Artwork }) {
-  const aspectRatio = art.original_width / art.original_height;
-
-  return (
-    <div className="group cursor-pointer">
-      <div
-          className="relative w-full overflow-hidden rounded-md bg-neutral-100"
-          style={{aspectRatio}}
-      >
-        <Image
-            src={art.sizes["800"]}
-            alt={art.title}
-            fill
-            placeholder="blur"
-            blurDataURL={art.placeholder}
-            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
-        />
-      </div>
-      <div className="mt-2">
-        <p className="text-sm font-medium text-neutral-900">{art.title}</p>
-        <p className="text-xs text-neutral-500">
-          {art.medium}
-          {art.year ? `, ${art.year}` : ""}
-        </p>
-      </div>
-    </div>
-  );
+function TabCard({ href, label, description }: { href: string; label: string; description: string }) {
+    return (
+        <Link
+            href={href}
+            className="group flex flex-col items-center gap-2 rounded-lg border border-neutral-200 p-8 text-center transition hover:border-neutral-400 hover:shadow-sm"
+        >
+            <span className="text-xl font-medium text-neutral-900">{label}</span>
+            <span className="text-sm text-neutral-500">{description}</span>
+        </Link>
+    );
 }

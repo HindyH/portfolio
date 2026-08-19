@@ -6,6 +6,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 2207,
       "original_height": 2207,
       "sizes": {
@@ -22,6 +23,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 2175,
       "original_height": 2175,
       "sizes": {
@@ -38,6 +40,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 1618,
       "original_height": 1618,
       "sizes": {
@@ -54,6 +57,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 1648,
       "original_height": 1648,
       "sizes": {
@@ -70,6 +74,7 @@
       "year": 2023,
       "medium": "Cardboard",
       "dimensions": "",
+      "category": "Sculptures",
       "original_width": 1980,
       "original_height": 3520,
       "sizes": {
@@ -86,6 +91,7 @@
       "year": 2023,
       "medium": "Cardboard",
       "dimensions": "",
+      "category": "Sculptures",
       "original_width": 1980,
       "original_height": 3520,
       "sizes": {
@@ -102,6 +108,7 @@
       "year": 2026,
       "medium": "Pen",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 4937,
       "original_height": 3703,
       "sizes": {
@@ -118,6 +125,7 @@
       "year": 2026,
       "medium": "Pen",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 5141,
       "original_height": 3575,
       "sizes": {
@@ -134,6 +142,7 @@
       "year": 2025,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 4284,
       "original_height": 5712,
       "sizes": {
@@ -150,6 +159,7 @@
       "year": 2024,
       "medium": "Acrylic on Canvas",
       "dimensions": "",
+      "category": "Paintings",
       "original_width": 3024,
       "original_height": 4032,
       "sizes": {
@@ -162,10 +172,11 @@
     },
     {
       "id": "control",
-      "title": "control",
-      "year": null,
-      "medium": "",
+      "title": "Control",
+      "year": 2026,
+      "medium": "Color Pencil",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 3299,
       "original_height": 4402,
       "sizes": {
@@ -182,6 +193,7 @@
       "year": 2025,
       "medium": "Acrylic Yarn",
       "dimensions": "",
+      "category": "Crochet",
       "original_width": 2096,
       "original_height": 2175,
       "sizes": {
@@ -198,6 +210,7 @@
       "year": 2025,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 5712,
       "original_height": 4284,
       "sizes": {
@@ -214,6 +227,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 2400,
       "original_height": 2400,
       "sizes": {
@@ -230,6 +244,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 2398,
       "original_height": 2398,
       "sizes": {
@@ -246,6 +261,7 @@
       "year": 2025,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 3847,
       "original_height": 5313,
       "sizes": {
@@ -262,6 +278,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 2126,
       "original_height": 2126,
       "sizes": {
@@ -278,6 +295,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 4284,
       "original_height": 5712,
       "sizes": {
@@ -294,6 +312,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 1667,
       "original_height": 1667,
       "sizes": {
@@ -310,6 +329,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 1758,
       "original_height": 1758,
       "sizes": {
@@ -326,6 +346,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 4284,
       "original_height": 5712,
       "sizes": {
@@ -342,6 +363,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 2309,
       "original_height": 2309,
       "sizes": {
@@ -354,10 +376,11 @@
     },
     {
       "id": "memory",
-      "title": "memory",
-      "year": null,
-      "medium": "",
+      "title": "Memory",
+      "year": 2026,
+      "medium": "Charcoal",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 5712,
       "original_height": 4284,
       "sizes": {
@@ -374,6 +397,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 2414,
       "original_height": 2414,
       "sizes": {
@@ -390,6 +414,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 5712,
       "original_height": 4284,
       "sizes": {
@@ -406,6 +431,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 1713,
       "original_height": 1713,
       "sizes": {
@@ -422,6 +448,7 @@
       "year": 2025,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 4284,
       "original_height": 5712,
       "sizes": {
@@ -438,6 +465,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 2225,
       "original_height": 2225,
       "sizes": {
@@ -454,6 +482,7 @@
       "year": 2025,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 4284,
       "original_height": 5712,
       "sizes": {
@@ -470,6 +499,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 1687,
       "original_height": 1687,
       "sizes": {
@@ -486,6 +516,7 @@
       "year": 2024,
       "medium": "Acryclic",
       "dimensions": "",
+      "category": "Paintings",
       "original_width": 4032,
       "original_height": 3024,
       "sizes": {
@@ -502,6 +533,7 @@
       "year": 2024,
       "medium": "Acryclic",
       "dimensions": "",
+      "category": "Paintings",
       "original_width": 4032,
       "original_height": 3024,
       "sizes": {
@@ -518,6 +550,7 @@
       "year": 2024,
       "medium": "Acryclic",
       "dimensions": "",
+      "category": "Paintings",
       "original_width": 4032,
       "original_height": 3024,
       "sizes": {
@@ -534,6 +567,7 @@
       "year": 2024,
       "medium": "Acryclic",
       "dimensions": "",
+      "category": "Paintings",
       "original_width": 4032,
       "original_height": 3024,
       "sizes": {
@@ -550,6 +584,7 @@
       "year": 2024,
       "medium": "Acryclic",
       "dimensions": "",
+      "category": "Paintings",
       "original_width": 4032,
       "original_height": 3024,
       "sizes": {
@@ -566,6 +601,7 @@
       "year": 2024,
       "medium": "Acrylic on Canvas",
       "dimensions": "",
+      "category": "Paintings",
       "original_width": 2799,
       "original_height": 3422,
       "sizes": {
@@ -582,6 +618,7 @@
       "year": 2024,
       "medium": "Acrylic on Canvas",
       "dimensions": "",
+      "category": "Paintings",
       "original_width": 2318,
       "original_height": 2994,
       "sizes": {
@@ -598,6 +635,7 @@
       "year": 2024,
       "medium": "Acrylic on Canvas",
       "dimensions": "",
+      "category": "Paintings",
       "original_width": 2581,
       "original_height": 3288,
       "sizes": {
@@ -614,6 +652,7 @@
       "year": 2024,
       "medium": "Acrylic Yarn",
       "dimensions": "",
+      "category": "Crochet",
       "original_width": 2517,
       "original_height": 3307,
       "sizes": {
@@ -630,6 +669,7 @@
       "year": 2026,
       "medium": "Charcoal",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 5712,
       "original_height": 4284,
       "sizes": {
@@ -646,6 +686,7 @@
       "year": 2023,
       "medium": "Steel",
       "dimensions": "",
+      "category": "Sculptures",
       "original_width": 3024,
       "original_height": 4032,
       "sizes": {
@@ -662,6 +703,7 @@
       "year": 2023,
       "medium": "Steel",
       "dimensions": "",
+      "category": "Sculptures",
       "original_width": 3024,
       "original_height": 4032,
       "sizes": {
@@ -678,6 +720,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Bird Drawings",
       "original_width": 2076,
       "original_height": 2076,
       "sizes": {
@@ -694,6 +737,7 @@
       "year": 2026,
       "medium": "Graphite",
       "dimensions": "",
+      "category": "Drawings",
       "original_width": 4284,
       "original_height": 5712,
       "sizes": {

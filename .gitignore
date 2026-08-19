@@ -44,3 +44,4 @@ raw-art/
 __pycache__/
 *.pyc
 .DS_Store
+.idea/
