@@ -18,8 +18,9 @@ export default function HomePage() {
                 <h1 className="text-4xl font-semibold tracking-tight text-black sm:text-5xl">
                     Hindy Hamburger
                 </h1>
+
                 <p className="max-w-xl text-lg text-black">
-                    Computer Scientists, Artist, Photographer
+                    Computer Scientist, Artist, Photographer
                 </p>
             </section>
 
@@ -32,7 +33,7 @@ export default function HomePage() {
     );
 }
 
-function TabCard({ href, label, description }: { href: string; label: string; description: string }) {
+function TabCard({href, label, description}: { href: string; label: string; description: string }) {
     return (
         <Link
             href={href}

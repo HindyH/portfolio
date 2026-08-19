@@ -9,6 +9,13 @@ const LINKS = [
   { href: "/photography", label: "Photography" },
 ];
 
+const CONTACT_LINKS = [
+  { href: "/Resume.pdf", label: "Resume" },
+  { href: "mailto:hindyhamburger@gmail.com", label: "Email" },
+  { href: "https://github.com/HindyH", label: "Github" },
+  { href: "https://www.linkedin.com/in/hindy-hamburger-1737a63b2/", label: "LinkedIn" },
+];
+
 export function Nav() {
   const pathname = usePathname();
 
@@ -18,6 +25,22 @@ export function Nav() {
         <Link href="/" className="text-sm font-semibold tracking-tight text-neutral-900">
           Hindy Hamburger
         </Link>
+
+        <ul className="flex gap-6">
+          {CONTACT_LINKS.map((link) => (
+            <li key={link.href}>
+              <a
+                href={link.href}
+                target={link.href.startsWith("http") || link.href.endsWith(".pdf") ? "_blank" : undefined}
+                rel={link.href.startsWith("http") || link.href.endsWith(".pdf") ? "noopener noreferrer" : undefined}
+                className="text-sm text-neutral-500 underline underline-offset-2 transition-colors hover:text-neutral-900"
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+
         <ul className="flex gap-6">
           {LINKS.map((link) => {
             const isActive = pathname === link.href || pathname.startsWith(`${link.href}/`);
