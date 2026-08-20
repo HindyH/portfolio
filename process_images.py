@@ -8,16 +8,37 @@ from pathlib import Path
 import base64
 import argparse
 
+# Each gallery (art, photo, ...) draws from its own raw folder, output folder,
+# metadata file, and JSON manifest - everything else in this script is shared.
+GALLERY_TYPES = {
+    "art": {
+        "raw_dir": Path("raw-art"),
+        "output_dir": Path("public/art"),
+        "output_json": Path("artworks.json"),
+        "json_key": "artworks",
+        "metadata_source": Path("metadata.json"),
+    },
+    "photo": {
+        "raw_dir": Path("raw-photos"),
+        "output_dir": Path("public/photos"),
+        "output_json": Path("photos.json"),
+        "json_key": "photos",
+        "metadata_source": Path("metadata-photos.json"),
+    },
+}
+
+# Populated from GALLERY_TYPES[args.type] at the top of main()
 RAW_DIR = Path("raw-art")
 OUTPUT_DIR = Path("public/art")
 OUTPUT_JSON = Path("artworks.json")
-METADATA_SOURCE = Path("metadata.json") #<<<<<<<<<<<<
+OUTPUT_JSON_KEY = "artworks"
+METADATA_SOURCE = Path("metadata.json")
 
 SIZES = [400, 800, 1600]
 PLACEHOLDER_SIZE = 20
 JPEG_QUALITY = 80
 VALID_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
-TARGET_ASPECT_RATIO = None  # e.g. 1.0 for square crop; None = leave as-is #<<<<<<<<<
+TARGET_ASPECT_RATIO = None  # e.g. 1.0 for square crop; None = leave as-is #<<<<<<<
 
 
 def rename(filename: str):
@@ -170,41 +191,56 @@ def process_one_image(path: Path, metadata: dict) -> dict | None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Process raw artwork imaghes into format.")
-    parser.add_argument("--only", help="Process a single file from raw-art", default=None)
+    global RAW_DIR, OUTPUT_DIR, OUTPUT_JSON, OUTPUT_JSON_KEY, METADATA_SOURCE
+
+    parser = argparse.ArgumentParser(description="Process raw gallery images (art or photos) into site format.")
+    parser.add_argument("--type", choices=GALLERY_TYPES.keys(), default="art", help="Which gallery to process")
+    parser.add_argument("--only", help="Process a single file from the raw folder", default=None)
     args = parser.parse_args()
+
+    cfg = GALLERY_TYPES[args.type]
+    RAW_DIR = cfg["raw_dir"]
+    OUTPUT_DIR = cfg["output_dir"]
+    OUTPUT_JSON = cfg["output_json"]
+    OUTPUT_JSON_KEY = cfg["json_key"]
+    METADATA_SOURCE = cfg["metadata_source"]
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     metadata_dict = load_data()
 
     files = list_raw_images(only=args.only)
-    print(f"{len(files)} images found")
+    print(f"{len(files)} images found in {RAW_DIR}")
 
-    artworks = []
+    items = []
     for path in files:
         entry = process_one_image(path, metadata_dict)
         if entry is not None:
-            artworks.append(entry)
+            items.append(entry)
 
     if args.only and OUTPUT_JSON.exists():
         with open(OUTPUT_JSON, "r", encoding="utf-8") as f:
             existing = json.load(f)
-        existing_rename = {a["id"]: a for a in existing.get("artworks", [])}
-        for entry in artworks:
+        existing_rename = {a["id"]: a for a in existing.get(OUTPUT_JSON_KEY, [])}
+        for entry in items:
             existing_rename[entry["id"]] = entry
-        artworks = list(existing_rename.values())
+        items = list(existing_rename.values())
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-        json.dump({"artworks": artworks}, f, indent=2)
+        json.dump({OUTPUT_JSON_KEY: items}, f, indent=2)
 
-    print(f"\nDone  {len(artworks)} artwork(s) written to {OUTPUT_JSON}")
+    print(f"\nDone  {len(items)} item(s) written to {OUTPUT_JSON}")
 
 
 if __name__ == "__main__":
     main()
 
 # add or fix one later
-# add its entry to metadata.json, drop the file into raw-art/, then:
+# add its entry to metadata.json (or metadata-photos.json), drop the file into
+# raw-art/ (or raw-photos/), then:
 #
 # bash
-# python process_images.py --only your-filename.jpg
+# python process_images.py --type art --only your-filename.jpg
+# python process_images.py --type photo --only your-filename.jpg
+#
+# to (re)process everything in a gallery:
+# python process_images.py --type photo
