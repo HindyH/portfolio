@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useLayoutEffect, useRef, useState } from "react";
-import { Corkboard, type ExcludeRect } from "@/app/components/corkboard/Corkboard";
+import { Corkboard } from "@/app/components/corkboard/Corkboard";
 import { getCorkboardMedia } from "@/lib/corkboard";
+
 
 const TAB_CARDS = [
     { href: "/artwork", label: "Artwork", description: "Fine art and graphic art" },
@@ -18,64 +18,31 @@ const TAB_CARDS = [
 const media = getCorkboardMedia();
 
 export default function HomePage() {
-    // measure only the actual visible content blocks - not their full-width section containers
-    const heroContentRef = useRef<HTMLDivElement>(null);
-    const cardsRef = useRef<HTMLDivElement>(null);
-    const [exclude, setExclude] = useState<ExcludeRect | null>(null);
-
-    useLayoutEffect(() => {
-        let resizeTimer: ReturnType<typeof setTimeout> | undefined;
-
-        function measure() {
-            const boxes = [heroContentRef.current, cardsRef.current]
-                .filter((el): el is HTMLDivElement => el !== null)
-                .map((el) => el.getBoundingClientRect());
-            if (boxes.length === 0) return;
-
-            const left = Math.min(...boxes.map((b) => b.left));
-            const right = Math.max(...boxes.map((b) => b.right));
-            const top = Math.min(...boxes.map((b) => b.top));
-            const bottom = Math.max(...boxes.map((b) => b.bottom));
-
-            setExclude({
-                xMinPct: (left / window.innerWidth) * 100,
-                xMaxPct: (right / window.innerWidth) * 100,
-                yMinPct: (top / window.innerHeight) * 100,
-                yMaxPct: (bottom / window.innerHeight) * 100,
-            });
-        }
-
-        function onResize() {
-            clearTimeout(resizeTimer);
-            resizeTimer = setTimeout(measure, 200);
-        }
-
-        measure();
-        window.addEventListener("resize", onResize);
-        return () => {
-            clearTimeout(resizeTimer);
-            window.removeEventListener("resize", onResize);
-        };
-    }, []);
-
     return (
         <main className="relative isolate pointer-events-none">
-            <Corkboard media={media} exclude={exclude} className="fixed inset-0 -z-20 h-full w-full" />
+            <Corkboard media={media} className="fixed inset-0 -z-20 hidden h-full w-full lg:block" />
             {/* translucent layer for text legibility - pointer-events-none lets clicks reach the corkboard underneath */}
             <div className="pointer-events-none fixed inset-0 -z-10 bg-white/20"/>
 
             <section className="flex min-h-[55vh] flex-col items-center justify-center gap-6 px-4 text-center">
                 {/* inline-flex sizes to its content instead of stretching full width, so the measured box matches what's actually visible */}
-                <div ref={heroContentRef} className="inline-flex flex-col items-center gap-6">
-                    <div className="relative h-56 w-56 overflow-hidden rounded-full sm:h-64 sm:w-64">
-                        <Image
-                            src="/profile.webp"
-                            alt="Hindy Hamburger"
-                            fill
-                            sizes="(min-width: 640px) 256px, 224px"
-                            className="object-cover"
-                            priority
-                        />
+                <div className="inline-flex flex-col items-center gap-6">
+                    <div className="relative -rotate-2">
+                        <div className="bg-white p-3 pb-8 shadow-xl">
+                            <div className="relative h-56 w-56 overflow-hidden sm:h-64 sm:w-64">
+                                <Image
+                                    src="/profile.webp"
+                                    alt="Hindy Hamburger"
+                                    fill
+                                    sizes="(min-width: 640px) 256px, 224px"
+                                    className="object-cover"
+                                    priority
+                                />
+                            </div>
+                        </div>
+                        <div
+                            //pins
+                            className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-600 shadow-md"/>
                     </div>
                     <h1 className="text-4xl font-semibold tracking-tight text-black sm:text-5xl">
                         Hindy Hamburger
@@ -89,10 +56,9 @@ export default function HomePage() {
 
             <section
                 id="sections"
-                ref={cardsRef}
-                className="mx-auto grid max-w-4xl grid-cols-1 gap-6 px-4 pb-24 sm:grid-cols-3"
+                className="mx-auto grid max-w-2xl grid-cols-1 gap-5 px-4 pb-24 sm:grid-cols-3"
             >
-                {TAB_CARDS.map((card) => (
+                {TAB_CARDS.map((card, i) => (
                     <TabCard key={card.href} {...card} />
                 ))}
             </section>
@@ -100,30 +66,43 @@ export default function HomePage() {
     );
 }
 
-function TabCard({href, label, description}: { href: string; label: string; description: string }) {
+function TabCard({
+    href,
+    label,
+    description
+}: {
+    href: string;
+    label: string;
+    description: string;
+}) {
     const isExternal = href.startsWith("http") || href.startsWith("mailto:") || href.endsWith(".pdf");
 
-    const className =
-        "pointer-events-auto group flex flex-col items-center gap-2 rounded-lg border border-neutral-200 bg-white p-8 text-center transition hover:border-neutral-400 hover:shadow-sm";
+    const noteClassName =
+        `pointer-events-auto group flex h-28 w-28 flex-col items-center justify-center gap-1 bg-gradient-to-br from-yellow-100 to-yellow-200 p-3 text-center shadow-[0_14px_15px_-6px_rgba(0,0,0,0.55)] transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-[inset_0_6px_5px_-4px_rgba(0,0,0,0.45),0_22px_32px_-8px_rgba(0,0,0,0.6)] sm:h-36 sm:w-36`;
 
-    if (isExternal) {
-        return (
-            <a
-                href={href}
-                target={href.startsWith("mailto:") ? undefined : "_blank"}
-                rel={href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
-                className={className}
-            >
-                <span className="text-xl font-medium text-neutral-900">{label}</span>
-                <span className="text-sm text-neutral-500">{description}</span>
-            </a>
-        );
-    }
+    const inner = (
+        <>
+            <span className="text-base font-medium text-neutral-900 sm:text-lg">{label}</span>
+            <span className="text-xs text-neutral-700 sm:text-sm">{description}</span>
+        </>
+    );
 
     return (
-        <Link href={href} className={className}>
-            <span className="text-xl font-medium text-neutral-900">{label}</span>
-            <span className="text-sm text-neutral-500">{description}</span>
-        </Link>
+        <div className="mx-auto">
+            {isExternal ? (
+                <a
+                    href={href}
+                    target={href.startsWith("mailto:") ? undefined : "_blank"}
+                    rel={href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
+                    className={noteClassName}
+                >
+                    {inner}
+                </a>
+            ) : (
+                <Link href={href} className={noteClassName}>
+                    {inner}
+                </Link>
+            )}
+        </div>
     );
 }
