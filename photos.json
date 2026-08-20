@@ -138,11 +138,11 @@
     },
     {
       "id": "sunset1",
-      "title": "sunset1",
-      "year": null,
+      "title": "Sunset",
+      "year": 2025,
       "medium": "",
       "dimensions": "",
-      "category": "",
+      "category": "Scenery",
       "original_width": 4608,
       "original_height": 3456,
       "sizes": {

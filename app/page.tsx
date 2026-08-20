@@ -1,5 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useLayoutEffect, useRef, useState } from "react";
+import { Corkboard, type ExcludeRect } from "@/app/components/corkboard/Corkboard";
+import { getCorkboardMedia } from "@/lib/corkboard";
 
 const TAB_CARDS = [
     { href: "/artwork", label: "Artwork", description: "Fine art and graphic art" },
@@ -10,32 +15,83 @@ const TAB_CARDS = [
     { href: "/Resume.pdf", label: "Resume", description: "View my resume" },
 ];
 
+const media = getCorkboardMedia();
+
 export default function HomePage() {
+    // measure only the actual visible content blocks - not their full-width section containers
+    const heroContentRef = useRef<HTMLDivElement>(null);
+    const cardsRef = useRef<HTMLDivElement>(null);
+    const [exclude, setExclude] = useState<ExcludeRect | null>(null);
+
+    useLayoutEffect(() => {
+        let resizeTimer: ReturnType<typeof setTimeout> | undefined;
+
+        function measure() {
+            const boxes = [heroContentRef.current, cardsRef.current]
+                .filter((el): el is HTMLDivElement => el !== null)
+                .map((el) => el.getBoundingClientRect());
+            if (boxes.length === 0) return;
+
+            const left = Math.min(...boxes.map((b) => b.left));
+            const right = Math.max(...boxes.map((b) => b.right));
+            const top = Math.min(...boxes.map((b) => b.top));
+            const bottom = Math.max(...boxes.map((b) => b.bottom));
+
+            setExclude({
+                xMinPct: (left / window.innerWidth) * 100,
+                xMaxPct: (right / window.innerWidth) * 100,
+                yMinPct: (top / window.innerHeight) * 100,
+                yMaxPct: (bottom / window.innerHeight) * 100,
+            });
+        }
+
+        function onResize() {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(measure, 200);
+        }
+
+        measure();
+        window.addEventListener("resize", onResize);
+        return () => {
+            clearTimeout(resizeTimer);
+            window.removeEventListener("resize", onResize);
+        };
+    }, []);
+
     return (
-        <main className="relative overflow-hidden">
-            <div className="fixed inset-0 -z-10 bg-[var(--background)]/40"/>
+        <main className="relative isolate pointer-events-none">
+            <Corkboard media={media} exclude={exclude} className="fixed inset-0 -z-20 h-full w-full" />
+            {/* translucent layer for text legibility - pointer-events-none lets clicks reach the corkboard underneath */}
+            <div className="pointer-events-none fixed inset-0 -z-10 bg-white/20"/>
 
             <section className="flex min-h-[55vh] flex-col items-center justify-center gap-6 px-4 text-center">
-                <div className="relative h-56 w-56 overflow-hidden rounded-full sm:h-64 sm:w-64">
-                    <Image
-                        src="/profile.webp"
-                        alt="Hindy Hamburger"
-                        fill
-                        sizes="(min-width: 640px) 256px, 224px"
-                        className="object-cover"
-                        priority
-                    />
-                </div>
-                <h1 className="text-4xl font-semibold tracking-tight text-black sm:text-5xl">
-                    Hindy Hamburger
-                </h1>
+                {/* inline-flex sizes to its content instead of stretching full width, so the measured box matches what's actually visible */}
+                <div ref={heroContentRef} className="inline-flex flex-col items-center gap-6">
+                    <div className="relative h-56 w-56 overflow-hidden rounded-full sm:h-64 sm:w-64">
+                        <Image
+                            src="/profile.webp"
+                            alt="Hindy Hamburger"
+                            fill
+                            sizes="(min-width: 640px) 256px, 224px"
+                            className="object-cover"
+                            priority
+                        />
+                    </div>
+                    <h1 className="text-4xl font-semibold tracking-tight text-black sm:text-5xl">
+                        Hindy Hamburger
+                    </h1>
 
-                <p className="max-w-xl text-lg text-black">
-                    Computer Scientist, Artist, Photographer
-                </p>
+                    <p className="max-w-xl text-lg text-black">
+                        Computer Scientist, Artist, Photographer
+                    </p>
+                </div>
             </section>
 
-            <section id="sections" className="mx-auto grid max-w-4xl grid-cols-1 gap-6 px-4 pb-24 sm:grid-cols-3">
+            <section
+                id="sections"
+                ref={cardsRef}
+                className="mx-auto grid max-w-4xl grid-cols-1 gap-6 px-4 pb-24 sm:grid-cols-3"
+            >
                 {TAB_CARDS.map((card) => (
                     <TabCard key={card.href} {...card} />
                 ))}
@@ -48,7 +104,7 @@ function TabCard({href, label, description}: { href: string; label: string; desc
     const isExternal = href.startsWith("http") || href.startsWith("mailto:") || href.endsWith(".pdf");
 
     const className =
-        "group flex flex-col items-center gap-2 rounded-lg border border-neutral-200 bg-white p-8 text-center transition hover:border-neutral-400 hover:shadow-sm";
+        "pointer-events-auto group flex flex-col items-center gap-2 rounded-lg border border-neutral-200 bg-white p-8 text-center transition hover:border-neutral-400 hover:shadow-sm";
 
     if (isExternal) {
         return (
