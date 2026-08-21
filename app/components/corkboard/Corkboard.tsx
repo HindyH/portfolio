@@ -142,7 +142,7 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
     const leftItems = slots.filter((s) => s.slot.side === "left");
     const rightItems = slots.filter((s) => s.slot.side === "right");
 
-    return (
+        return (
         <div
             className={`pointer-events-none overflow-hidden select-none ${className}`}
             style={{
@@ -155,14 +155,16 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
                 backgroundRepeat: "no-repeat",
             }}
         >
+            {/* pinned photos - desktop only. hidden below lg so mobile keeps just the cork texture behind the profile photo,
+                without the photo columns cluttering a narrow screen. */}
             <div
-                className="absolute left-0 top-0 flex h-full flex-col items-start justify-center gap-10 pl-[8%] pt-16 pb-6">
+                className="hidden lg:flex absolute left-0 top-0 h-full flex-col items-start justify-center gap-10 pl-[8%] pt-16 pb-6">
                 {leftItems.map((s) => (
                     <PinnedItem key={s.slot.id} state={s}/>
                 ))}
             </div>
             <div
-                className="absolute right-0 top-0 flex h-full flex-col items-end justify-center gap-10 pr-[8%] pt-16 pb-6">
+                className="hidden lg:flex absolute right-0 top-0 h-full flex-col items-end justify-center gap-10 pr-[8%] pt-16 pb-6">
                 {rightItems.map((s) => (
                     <PinnedItem key={s.slot.id} state={s}/>
                 ))}
@@ -227,11 +229,7 @@ function PinnedItem({ state }: { state: SlotState }) {
     const { rotation, offsetX, width, height } = slot;
 
     return (
-        // outer wrapper - a normal flex child now, sized to the frame so the pin (left: 50%) centers on it.
-        // rotation is applied here via transform, which doesn't affect flex layout/spacing, so it can't reintroduce overlap.
         <div className="relative" style={{ width, transform: `rotate(${rotation}deg)  translateX(${offsetX}px)`  }}>
-            {/* photo frame - white border + shadow are static, always fully opaque */}
-            {/* stronger, more diffuse shadow than Tailwind's shadow-xl so the frame reads as floating above the cork */}
             <div
                 className="bg-white p-2 pb-5"
                 style={{

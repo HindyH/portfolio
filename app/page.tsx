@@ -20,7 +20,7 @@ const media = getCorkboardMedia();
 export default function HomePage() {
     return (
         <main className="relative isolate pointer-events-none">
-            <Corkboard media={media} className="fixed inset-0 -z-20 h-full w-full lg:block" />
+            <Corkboard media={media} className="fixed inset-0 -z-20 h-full w-full" />
             {/* translucent layer for text legibility - pointer-events-none lets clicks reach the corkboard underneath */}
             <div className="pointer-events-none fixed inset-0 -z-10"/>
 
@@ -28,7 +28,10 @@ export default function HomePage() {
                 {/* inline-flex sizes to its content instead of stretching full width, so the measured box matches what's actually visible */}
                 <div className="inline-flex flex-col items-center gap-6">
                     <div className="relative -rotate-2">
-                        <div className="bg-white p-3 pb-8 shadow-xl">
+                        <div
+                            className="bg-white p-3 pb-8"
+                            style={{ boxShadow: "0 28px 38px -12px rgba(0,0,0,0.55), 0 12px 16px -8px rgba(0,0,0,0.4)" }}
+                        >
                             <div className="relative h-56 w-56 overflow-hidden sm:h-64 sm:w-64">
                                 <Image
                                     src="/profile.webp"
@@ -42,7 +45,7 @@ export default function HomePage() {
                         </div>
                         <Pushpin size={20} />
                     </div>
-                    <h1 className="text-4xl font-semibold tracking-tight text-black sm:text-5xl">
+                    <h1 className="font-display-name text-4xl font-semibold tracking-tight text-black sm:text-5xl">
                         Hindy Hamburger
                     </h1>
 
@@ -54,7 +57,7 @@ export default function HomePage() {
 
             <section
                 id="sections"
-                className="mx-auto grid max-w-2xl grid-cols-1 gap-5 px-4 pb-24 sm:grid-cols-3"
+                className="mx-auto grid max-w-2xl grid-cols-2 gap-5 px-4 pb-24 sm:grid-cols-3"
             >
                 {TAB_CARDS.map((card, i) => (
                     <TabCard key={card.href} {...card} />
@@ -80,7 +83,7 @@ function TabCard({
 
     const inner = (
         <>
-            <span className="text-base font-medium text-neutral-900 sm:text-lg">{label}</span>
+            <span className="font-card-title text-xl font-semibold text-neutral-900 sm:text-2xl">{label}</span>
             <span className="text-xs text-neutral-700 sm:text-sm">{description}</span>
         </>
     );

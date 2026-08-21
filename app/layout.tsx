@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Playfair_Display, Caveat } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/app/components/Nav";
 
@@ -14,16 +14,30 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// masthead-style serif for the name heading ("newspaper" vibe)
+const playfairDisplay = Playfair_Display({
+  variable: "--font-playfair-display",
+  subsets: ["latin"],
+  weight: ["700", "900"],
+});
+
+// handwritten font for the tab card titles
+const caveat = Caveat({
+  variable: "--font-caveat",
+  subsets: ["latin"],
+  weight: ["600", "700"],
+});
+
 export const metadata: Metadata = {
   title: "Hindy Hamburger",
-  description: "B.A. in Computer Science. Portfolio of projects, code, and artwork.",
+  description: "Portfolio of projects, code, and artwork.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.variable} ${caveat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <Nav />
