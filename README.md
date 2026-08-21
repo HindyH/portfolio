@@ -1,5 +1,7 @@
 # Hindy Hamburger Portfolio
 
+![CI](https://github.com/HindyH/portfolio/actions/workflows/ci.yml/badge.svg)
+
 Personal portfolio and resume site. Built with Next.js with AI assistance from Claude. Showcases software projects, code, and artwork.
 
 ## About
