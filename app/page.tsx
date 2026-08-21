@@ -48,16 +48,12 @@ export default function HomePage() {
                     <h1 className="font-display-name text-4xl font-semibold tracking-tight text-black sm:text-5xl">
                         Hindy Hamburger
                     </h1>
-
-                    <p className="max-w-xl text-lg text-black">
-                        Computer Scientist, Artist, Photographer
-                    </p>
                 </div>
             </section>
 
             <section
                 id="sections"
-                className="mx-auto grid max-w-2xl grid-cols-2 gap-5 px-4 pb-24 sm:grid-cols-3"
+                className="font-card-title mx-auto grid max-w-2xl grid-cols-2 gap-5 px-4 pb-24 sm:grid-cols-3"
             >
                 {TAB_CARDS.map((card, i) => (
                     <TabCard key={card.href} {...card} />
