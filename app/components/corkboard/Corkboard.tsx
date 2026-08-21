@@ -150,9 +150,9 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
                 backgroundImage:
                     "radial-gradient(circle at 20% 30%, rgba(0,0,0,0.15) 0, transparent 45%), " +
                     "url('/cork-texture.webp')",
-                backgroundSize: "cover",
+                backgroundSize: "cover, 400px 400px",
                 backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
+                backgroundRepeat: "no-repeat, repeat",
             }}
         >
             {/* pinned photos - desktop only. hidden below lg so mobile keeps just the cork texture behind the profile photo,

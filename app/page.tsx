@@ -21,11 +21,9 @@ export default function HomePage() {
     return (
         <main className="relative isolate pointer-events-none">
             <Corkboard media={media} className="fixed inset-0 -z-20 h-full w-full" />
-            {/* translucent layer for text legibility - pointer-events-none lets clicks reach the corkboard underneath */}
             <div className="pointer-events-none fixed inset-0 -z-10"/>
 
             <section className="flex min-h-[55vh] flex-col items-center justify-center gap-6 px-4 text-center">
-                {/* inline-flex sizes to its content instead of stretching full width, so the measured box matches what's actually visible */}
                 <div className="inline-flex flex-col items-center gap-6">
                     <div className="relative -rotate-2">
                         <div
@@ -45,8 +43,33 @@ export default function HomePage() {
                         </div>
                         <Pushpin size={20} />
                     </div>
-                    <h1 className="font-display-name text-4xl font-semibold tracking-tight text-black sm:text-5xl">
-                        Hindy Hamburger
+                    <h1 className="font-display-name relative inline-block px-8 py-4 text-4xl font-semibold tracking-tight text-black sm:text-5xl">
+                        <svg
+                            aria-hidden
+                            className="absolute inset-0 -z-10 h-full w-full"
+                            viewBox="0 0 100 100"
+                            preserveAspectRatio="none"
+                            style={{filter: "drop-shadow(0 10px 14px rgba(0,0,0,0.35))"}}
+                        >
+                            <defs>
+                                <filter id="paper-grain">
+                                    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2"
+                                                  stitchTiles="stitch" result="noise"/>
+                                    <feColorMatrix in="noise" type="matrix"
+                                                   values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"/>
+                                </filter>
+                            </defs>
+                            <polygon
+                                points="0,4 8,1 16,5 24,0 32,4 40,1 48,5 56,0 64,4 72,1 80,5 88,0 96,4 100,2 100,98 92,100 84,95 76,99 68,94 60,98 52,95 44,99 36,94 28,98 20,95 12,99 4,94 0,97"
+                                fill="#f3ecd9"
+                            />
+                            <polygon
+                                points="0,4 8,1 16,5 24,0 32,4 40,1 48,5 56,0 64,4 72,1 80,5 88,0 96,4 100,2 100,98 92,100 84,95 76,99 68,94 60,98 52,95 44,99 36,94 28,98 20,95 12,99 4,94 0,97"
+                                fill="black"
+                                filter="url(#paper-grain)"
+                            />
+                        </svg>
+                        <span className="relative">Hindy Hamburger</span>
                     </h1>
                 </div>
             </section>
@@ -64,10 +87,10 @@ export default function HomePage() {
 }
 
 function TabCard({
-    href,
-    label,
-    description
-}: {
+                     href,
+                     label,
+                     description
+                 }: {
     href: string;
     label: string;
     description: string;
@@ -97,7 +120,7 @@ function TabCard({
                 </a>
             ) : (
                 <Link href={href} className={noteClassName}>
-                    {inner}
+                {inner}
                 </Link>
             )}
         </div>
