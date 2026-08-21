@@ -14,6 +14,8 @@ const NAV_LINKS = [
 
 export function Nav() {
   const pathname = usePathname();
+  const showNav = pathname.startsWith("/artwork") || pathname.startsWith("/photography");
+  if (!showNav) return null;
 
   return (
     <header className="sticky top-0 z-40 border-b border-neutral-200 bg-white/80 backdrop-blur">

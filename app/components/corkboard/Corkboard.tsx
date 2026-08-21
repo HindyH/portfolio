@@ -8,22 +8,26 @@ const FADE_MS = 700;
 
 interface Slot {
     id: string;
-    xPct: number;
-    yPct: number;
+    side: "left" | "right"; // which flex column this slot lives in
+    orientation: "landscape" | "portrait"; // frame shape - matched against each media item's own aspect ratio
     rotation: number;
-    width: number;  // fixed frame size - stays constant no matter what image is inside
-    height: number;
+    offsetX: number; // px, applied via transform so it staggers items left/right without affecting flex layout/spacing
+    width: string;  // CSS clamp() so the frame scales down on smaller windows instead of overflowing
+    height: string;
 }
 
-// 3 fixed slots down each side, moved higher up the page
 const SLOTS: Slot[] = [
-    { id: "left-top", xPct: 12, yPct: 12, rotation: -8, width: 150, height: 175 },
-    { id: "left-mid", xPct: 10, yPct: 36, rotation: 6, width: 165, height: 140 },
-    { id: "left-bottom", xPct: 13, yPct: 60, rotation: -5, width: 145, height: 170 },
-    { id: "right-top", xPct: 88, yPct: 10, rotation: 7, width: 160, height: 135 },
-    { id: "right-mid", xPct: 90, yPct: 34, rotation: -6, width: 145, height: 170 },
-    { id: "right-bottom", xPct: 87, yPct: 58, rotation: 5, width: 165, height: 145 },
+    { id: "left-top", side: "left", orientation: "portrait", rotation: -8, offsetX: 26, width: "clamp(150px, 19vw, 260px)", height: "clamp(160px, 25vh, 300px)" },
+    { id: "left-mid", side: "left", orientation: "landscape", rotation: 6, offsetX: -32, width: "clamp(170px, 21vw, 280px)", height: "clamp(130px, 19vh, 220px)" },
+    { id: "left-bottom", side: "left", orientation: "portrait", rotation: -5, offsetX: 20, width: "clamp(140px, 18vw, 240px)", height: "clamp(150px, 23vh, 280px)" },
+    { id: "right-top", side: "right", orientation: "landscape", rotation: 7, offsetX: -26, width: "clamp(160px, 20vw, 270px)", height: "clamp(125px, 17vh, 200px)" },
+    { id: "right-mid", side: "right", orientation: "portrait", rotation: -6, offsetX: 32, width: "clamp(140px, 18vw, 240px)", height: "clamp(150px, 23vh, 280px)" },
+    { id: "right-bottom", side: "right", orientation: "landscape", rotation: 5, offsetX: -20, width: "clamp(170px, 21vw, 280px)", height: "clamp(130px, 19vh, 220px)" },
 ];
+
+function mediaOrientation(item: PinnedMedia): "landscape" | "portrait" {
+    return item.width >= item.height ? "landscape" : "portrait";
+}
 
 interface SlotState {
     slot: Slot;
@@ -42,32 +46,50 @@ function shuffled<T>(arr: T[]): T[] {
 }
 
 export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; className?: string }) {
-    const poolRef = useRef<PinnedMedia[]>([]);
-    const poolIndexRef = useRef(0);
+    // separate draw pools per orientation so a slot only ever pulls a same-shaped image from its pool -
+    // falls back to the other pool if one orientation runs out, so slots still fill even with a lopsided media mix
+    const poolsRef = useRef<Record<"landscape" | "portrait", PinnedMedia[]>>({ landscape: [], portrait: [] });
+    const poolIndexRef = useRef<Record<"landscape" | "portrait", number>>({ landscape: 0, portrait: 0 });
     const keyCounterRef = useRef(0);
 
-    const nextMedia = () => {
-        if (media.length === 0) return null;
-        if (poolRef.current.length === 0 || poolIndexRef.current >= poolRef.current.length) {
-            poolRef.current = shuffled(media);
-            poolIndexRef.current = 0;
+    const refillPools = (source: PinnedMedia[]) => {
+        poolsRef.current = {
+            landscape: shuffled(source.filter((m) => mediaOrientation(m) === "landscape")),
+            portrait: shuffled(source.filter((m) => mediaOrientation(m) === "portrait")),
+        };
+        poolIndexRef.current = { landscape: 0, portrait: 0 };
+    };
+
+    const drawFrom = (orientation: "landscape" | "portrait"): PinnedMedia | null => {
+        const pool = poolsRef.current[orientation];
+        const idx = poolIndexRef.current[orientation];
+        if (idx >= pool.length) {
+            // that orientation's pool is exhausted for this pass - reshuffle just that pool from the full media list
+            poolsRef.current[orientation] = shuffled(media.filter((m) => mediaOrientation(m) === orientation));
+            poolIndexRef.current[orientation] = 0;
         }
-        const item = poolRef.current[poolIndexRef.current];
-        poolIndexRef.current += 1;
+        const refreshed = poolsRef.current[orientation];
+        if (refreshed.length === 0) return null; // truly no media of this orientation exists
+        const item = refreshed[poolIndexRef.current[orientation]];
+        poolIndexRef.current[orientation] += 1;
         return item;
+    };
+
+    const nextMediaForSlot = (orientation: "landscape" | "portrait"): PinnedMedia | null => {
+        if (media.length === 0) return null;
+        return drawFrom(orientation) ?? drawFrom(orientation === "landscape" ? "portrait" : "landscape");
     };
 
     const [slots, setSlots] = useState<SlotState[]>([]);
 
-    // initial fill - one distinct image per slot (as many slots as we have media for, up to 6)
+    // initial fill - one distinct, orientation-matched image per slot (as many slots as we have media for, up to 6)
     useEffect(() => {
-        poolRef.current = shuffled(media);
-        poolIndexRef.current = 0;
+        refillPools(media);
 
         const activeSlots = SLOTS.slice(0, Math.min(SLOTS.length, media.length));
         const initial = activeSlots.map((slot) => ({
             slot,
-            media: nextMedia(),
+            media: nextMediaForSlot(slot.orientation),
             imgVisible: false,
             key: keyCounterRef.current++,
         }));
@@ -99,7 +121,7 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
                 setSlots((prev) => {
                     const idx = prev.findIndex((s) => !s.imgVisible);
                     if (idx === -1) return prev;
-                    const item = nextMedia();
+                    const item = nextMediaForSlot(prev[idx].slot.orientation);
                     if (!item) return prev;
                     const next = [...prev];
                     next[idx] = { ...next[idx], media: item, key: keyCounterRef.current++ };
@@ -117,6 +139,9 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
 
     if (media.length === 0) return null;
 
+    const leftItems = slots.filter((s) => s.slot.side === "left");
+    const rightItems = slots.filter((s) => s.slot.side === "right");
+
     return (
         <div
             className={`pointer-events-none overflow-hidden select-none ${className}`}
@@ -130,9 +155,68 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
                 backgroundRepeat: "no-repeat",
             }}
         >
-            {slots.map((s) => (
-                <PinnedItem key={s.slot.id} state={s} />
-            ))}
+            <div
+                className="absolute left-0 top-0 flex h-full flex-col items-start justify-center gap-10 pl-[8%] pt-16 pb-6">
+                {leftItems.map((s) => (
+                    <PinnedItem key={s.slot.id} state={s}/>
+                ))}
+            </div>
+            <div
+                className="absolute right-0 top-0 flex h-full flex-col items-end justify-center gap-10 pr-[8%] pt-16 pb-6">
+                {rightItems.map((s) => (
+                    <PinnedItem key={s.slot.id} state={s}/>
+                ))}
+            </div>
+        </div>
+    );
+}
+
+export function Pushpin({size = 18, className = ""}: { size?: number; className?: string }) {
+    const shadowSize = size * (16 / 18);
+    const highlightWidth = size * (5 / 18);
+    const highlightHeight = size * (4 / 18);
+    return (
+        <div
+            className={`absolute -translate-x-1/2 -translate-y-1/2 ${className}`}
+            style={{ left: "50%", top: 0, width: size, height: size }}
+        >
+            {/* ground shadow - offset down-right, blurred, so the pin reads as sitting proud of the surface */}
+            <div
+                className="absolute rounded-full"
+                style={{
+                    width: shadowSize,
+                    height: shadowSize,
+                    left: size * (3 / 18),
+                    top: size * (4 / 18),
+                    background: "rgba(0,0,0,0.4)",
+                    filter: "blur(2px)",
+                }}
+            />
+            {/* domed head - light source top-left: bright center fading to a dark rim, plus inset shading */}
+            <div
+                className="absolute rounded-full"
+                style={{
+                    width: size,
+                    height: size,
+                    background: "radial-gradient(circle at 35% 30%, #6b6b6b 0%, #2b2b2b 42%, #141414 82%, #000000 100%)",
+                    boxShadow:
+                        "0 2px 3px rgba(0,0,0,0.45), " +
+                        "inset -2px -2px 3px rgba(0,0,0,0.35), " +
+                        "inset 1px 1px 2px rgba(255,255,255,0.55)",
+                }}
+            />
+            {/* specular highlight - small bright spot for the glossy-plastic shine */}
+            <div
+                className="absolute rounded-full"
+                style={{
+                    width: highlightWidth,
+                    height: highlightHeight,
+                    left: size * (4 / 18),
+                    top: size * (3 / 18),
+                    background: "rgba(255,255,255,0.85)",
+                    filter: "blur(0.4px)",
+                }}
+            />
         </div>
     );
 }
@@ -140,21 +224,19 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
 function PinnedItem({ state }: { state: SlotState }) {
     const { slot, media, imgVisible, key } = state;
     if (!media) return null;
-    const { xPct, yPct, rotation, width, height } = slot;
+    const { rotation, offsetX, width, height } = slot;
 
     return (
-        // outer wrapper - permanently positioned, never fades
-        <div
-            className="absolute"
-            style={{ left: `${xPct}%`, top: `${yPct}%` }}
-        >
+        // outer wrapper - a normal flex child now, sized to the frame so the pin (left: 50%) centers on it.
+        // rotation is applied here via transform, which doesn't affect flex layout/spacing, so it can't reintroduce overlap.
+        <div className="relative" style={{ width, transform: `rotate(${rotation}deg)  translateX(${offsetX}px)`  }}>
             {/* photo frame - white border + shadow are static, always fully opaque */}
+            {/* stronger, more diffuse shadow than Tailwind's shadow-xl so the frame reads as floating above the cork */}
             <div
-                className="absolute bg-white p-2 pb-5 shadow-xl"
+                className="bg-white p-2 pb-5"
                 style={{
-                    left: -width / 2,
-                    top: 0,
-                    width
+                    width,
+                    boxShadow: "0 28px 38px -12px rgba(0,0,0,0.55), 0 12px 16px -8px rgba(0,0,0,0.4)"
                 }}
             >
                 {/* fixed-size window - only this crossfades when the media swaps, the frame around it never moves */}
@@ -178,11 +260,8 @@ function PinnedItem({ state }: { state: SlotState }) {
                     )}
                 </div>
             </div>
-            {/* pushpin - stays fixed exactly at the anchor point, never rotates, never fades */}
-            <div
-                className="absolute h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-600 shadow-md"
-                style={{ left: 0, top: 0 }}
-            />
+            {/* pushpin - centered on top edge of the frame, stays put, never fades */}
+            <Pushpin size={20} />.
         </div>
     );
 }

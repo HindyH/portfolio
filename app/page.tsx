@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Corkboard } from "@/app/components/corkboard/Corkboard";
+import {Corkboard, Pushpin} from "@/app/components/corkboard/Corkboard";
 import { getCorkboardMedia } from "@/lib/corkboard";
 
 
@@ -20,9 +20,9 @@ const media = getCorkboardMedia();
 export default function HomePage() {
     return (
         <main className="relative isolate pointer-events-none">
-            <Corkboard media={media} className="fixed inset-0 -z-20 hidden h-full w-full lg:block" />
+            <Corkboard media={media} className="fixed inset-0 -z-20 h-full w-full lg:block" />
             {/* translucent layer for text legibility - pointer-events-none lets clicks reach the corkboard underneath */}
-            <div className="pointer-events-none fixed inset-0 -z-10 bg-white/20"/>
+            <div className="pointer-events-none fixed inset-0 -z-10"/>
 
             <section className="flex min-h-[55vh] flex-col items-center justify-center gap-6 px-4 text-center">
                 {/* inline-flex sizes to its content instead of stretching full width, so the measured box matches what's actually visible */}
@@ -40,9 +40,7 @@ export default function HomePage() {
                                 />
                             </div>
                         </div>
-                        <div
-                            //pins
-                            className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-600 shadow-md"/>
+                        <Pushpin size={20} />
                     </div>
                     <h1 className="text-4xl font-semibold tracking-tight text-black sm:text-5xl">
                         Hindy Hamburger
