@@ -52,7 +52,7 @@ function GalleryCard({ item, onClick }: { item: GalleryItem; onClick: () => void
       <div className="mt-2">
         <p className="text-sm font-medium text-neutral-900">{item.title}</p>
         <p className="text-xs text-neutral-500">
-          {item.medium}{item.year ? `, ${item.year}` : ""}
+          {[item.medium, item.year].filter(Boolean).join(", ")}
         </p>
       </div>
     </div>
@@ -89,7 +89,7 @@ function Lightbox({ item, onClose }: { item: GalleryItem; onClose: () => void })
         </div>
         <div className="mt-4 text-center text-white">
           <p className="text-lg font-medium">{item.title}</p>
-          <p className="text-sm text-white/70">{item.medium}{item.year ? `, ${item.year}` : ""}</p>
+          <p className="text-sm text-white/70">{[item.medium, item.year].filter(Boolean).join(", ")}</p>
         </div>
       </div>
     </div>

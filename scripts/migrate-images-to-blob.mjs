@@ -1,6 +1,21 @@
+// Uploads any not-yet-migrated files in public/art and public/photos (images
+// and videos) to Vercel Blob, then rewrites artworks.json / photos.json so
+// `sizes` and `video` paths point at the new Blob URLs instead of local
+// /public paths. Originally a one-time migration script; now also the
+// normal way to publish newly-added or updated artwork/photos/videos after
+// running process_images.py.
+//
+// Usage:
+//   BLOB_READ_WRITE_TOKEN=xxx node scripts/migrate-images-to-blob.mjs
+//
+// Safe to re-run: any entry whose sizes/video already start with "http" is
+// skipped, so only newly-processed local files get uploaded. Back up your
+// JSON files before the first run.
+
 import { put } from "@vercel/blob";
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { createHash } from "node:crypto";
 
 const MANIFESTS = [
   { file: "artworks.json", key: "artworks" },
@@ -13,13 +28,24 @@ async function uploadFile(localPublicPath) {
   // localPublicPath looks like "/art/landscape/landscape-800.webp"
   const absPath = path.join(PROJECT_ROOT, "public", localPublicPath);
   const buffer = await readFile(absPath);
-  const blobPathname = localPublicPath.replace(/^\//, ""); // "art/landscape/landscape-800.webp"
+
+  // Content-hash the pathname so replacing a file's contents (same filename,
+  // better version) always produces a brand-new URL. This is required, not
+  // optional: Next.js's Image Optimization service caches a resized copy of
+  // every image keyed by its URL, with NO way to manually invalidate that
+  // cache (per Next's own docs). Reusing the same URL for changed content
+  // means visitors can keep seeing the old resized version for hours,
+  // regardless of what the raw file on Blob storage says.
+  const hash = createHash("sha256").update(buffer).digest("hex").slice(0, 10);
+  const ext = path.extname(localPublicPath); // ".jpg", ".mp4", etc.
+  const base = localPublicPath.replace(/^\//, "").slice(0, -ext.length || undefined);
+  const blobPathname = `${base}.${hash}${ext}`;
 
   const blob = await put(blobPathname, buffer, {
     access: "public",
-    addRandomSuffix: false, // keep stable, predictable URLs
-    allowOverwrite: true, // replacing an existing file at the same path is expected here
-});
+    addRandomSuffix: false, // hash already makes the path unique per content
+    allowOverwrite: true, // harmless no-op if this exact content was already uploaded
+  });
 
   return blob.url;
 }
