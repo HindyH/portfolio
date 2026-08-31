@@ -20,9 +20,8 @@ const media = getCorkboardMedia();
 export default function HomePage() {
     return (
         <main className="relative isolate pointer-events-none">
-            <Corkboard media={media} className="fixed inset-0 -z-20 h-lvh w-full" />
-            <div className="pointer-events-none fixed inset-0 -z-10"/>
-
+            <Corkboard media={media} className="absolute inset-0 -z-20" />
+            <div className="pointer-events-none absolute inset-0 -z-10"/>
             <section className="flex min-h-[55vh] flex-col items-center justify-center gap-6 px-4 text-center">
                 <div className="inline-flex flex-col items-center gap-6">
                     <div className="relative -rotate-2">
