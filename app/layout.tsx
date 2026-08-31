@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Playfair_Display, Caveat } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/app/components/Nav";
@@ -33,6 +33,10 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   title: "Hindy Hamburger",
   description: "Portfolio of projects, code, and artwork.",
+};
+
+export const viewport: Viewport = {
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
