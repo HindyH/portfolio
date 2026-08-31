@@ -1,5 +1,8 @@
 import json, re
 import sys
+import shutil
+import subprocess
+import tempfile
 
 import io
 from PIL import Image, ImageOps, ImageFilter
@@ -37,8 +40,12 @@ METADATA_SOURCE = Path("metadata.json")
 SIZES = [400, 800, 1600]
 PLACEHOLDER_SIZE = 20
 JPEG_QUALITY = 80
-VALID_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
-TARGET_ASPECT_RATIO = None  # e.g. 1.0 for square crop; None = leave as-is #<<<<<<<
+VALID_IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
+VALID_VIDEO_EXTENSIONS = {".mp4", ".mov", ".m4v", ".webm"}
+VALID_EXTENSIONS = VALID_IMAGE_EXTENSIONS | VALID_VIDEO_EXTENSIONS
+TARGET_ASPECT_RATIO = None  # e.g. 1.0 for square crop; None = leave as-is #<<<<<
+VIDEO_CRF = 23  # lower = higher quality/larger file; 18-28 is a sane web range
+VIDEO_MAX_WIDTH = 1920  # downscale wider videos to keep file size reasonable
 
 
 def rename(filename: str):
@@ -128,7 +135,7 @@ def get_dom_color(path:Path) -> str:
     return "#{:02x}{:02x}{:02x}".format(r, g, b)
 
 
-def list_raw_images(only:str | None = None) -> list[Path]:
+def list_raw_media(only:str | None = None, exclude_slugs: set[str] | None = None) -> list[Path]:
     if not RAW_DIR.exists():
         print(f"ERROR: {RAW_DIR} not found")
         sys.exit(1)
@@ -144,7 +151,109 @@ def list_raw_images(only:str | None = None) -> list[Path]:
             print(f"ERROR: {only} not found in {RAW_DIR}")
             sys.exit(1)
 
+    if exclude_slugs:
+        files = [p for p in files if rename(p.name) not in exclude_slugs]
+
     return files
+
+
+def probe_video_dimensions(path: Path) -> tuple[int, int]:
+    result = subprocess.run(
+        [
+            "ffprobe", "-v", "error",
+            "-select_streams", "v:0",
+            "-show_entries", "stream=width,height",
+            "-of", "csv=s=x:p=0",
+            str(path),
+        ],
+        capture_output=True, text=True, check=True,
+    )
+    width_str, height_str = result.stdout.strip().split("x")
+    return int(width_str), int(height_str)
+
+
+def extract_poster_frame(path: Path, out_jpg: Path) -> None:
+    # Grab a frame ~10% into the clip (falls back to the first frame for short clips)
+    subprocess.run(
+        [
+            "ffmpeg", "-y", "-ss", "00:00:00.5", "-i", str(path),
+            "-frames:v", "1", "-q:v", "2", str(out_jpg),
+        ],
+        capture_output=True, check=True,
+    )
+
+
+def transcode_video(path: Path, out_mp4: Path) -> None:
+    out_mp4.parent.mkdir(parents=True, exist_ok=True)
+    subprocess.run(
+        [
+            "ffmpeg", "-y", "-i", str(path),
+            "-vf", f"scale='min({VIDEO_MAX_WIDTH},iw)':-2",
+            "-c:v", "libx264", "-crf", str(VIDEO_CRF), "-preset", "medium",
+            "-c:a", "aac", "-b:a", "128k",
+            "-movflags", "+faststart",  # lets the browser start playback before full download
+            str(out_mp4),
+        ],
+        capture_output=True, check=True,
+    )
+
+
+def process_one_video(path: Path, metadata: dict) -> dict | None:
+    filename = path.name
+    slug = rename(filename)
+    video_out_dir = OUTPUT_DIR / slug
+
+    try:
+        width, height = probe_video_dimensions(path)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            frame_path = Path(tmp) / "poster.jpg"
+            extract_poster_frame(path, frame_path)
+            poster = open_and_normalize(frame_path)
+            poster = crops(poster, TARGET_ASPECT_RATIO)
+
+            sizes_out = {}
+            for w in SIZES:
+                resized = resizing(poster, w)
+                out_path = video_out_dir / f"{w}.jpg"
+                save_jpeg(resized, out_path)
+                sizes_out[str(w)] = "/" + str(out_path.relative_to("public"))
+
+            placeholder = make_placeholder_base64(poster)
+            dom_color = get_dom_color(frame_path)
+
+        video_out_path = video_out_dir / "video.mp4"
+        transcode_video(path, video_out_path)
+        video_rel_path = "/" + str(video_out_path.relative_to("public"))
+
+        meta = get_data(filename, metadata)
+
+        entry = {
+            "id": slug,
+            "title": meta["title"],
+            "year": meta["year"],
+            "medium": meta["medium"],
+            "dimensions": meta["dimensions"],
+            "category": meta["category"],
+            "original_width": width,
+            "original_height": height,
+            "sizes": sizes_out,
+            "placeholder": placeholder,
+            "color": dom_color,
+            "type": "video",
+            "video": video_rel_path,
+        }
+
+        print(f"  OK  {filename} -> {slug} (video)")
+        return entry
+
+    except subprocess.CalledProcessError as e:
+        stderr = e.stderr.decode("utf-8", errors="ignore") if isinstance(e.stderr, bytes) else e.stderr
+        print(f"  ERROR  {filename}: ffmpeg/ffprobe failed: {stderr}")
+        return None
+    except Exception as e:
+        print(f"  ERROR  {filename}: {e}")
+        return None
 
 
 def process_one_image(path: Path, metadata: dict) -> dict | None:
@@ -196,7 +305,15 @@ def main():
     parser = argparse.ArgumentParser(description="Process raw gallery images (art or photos) into site format.")
     parser.add_argument("--type", choices=GALLERY_TYPES.keys(), default="art", help="Which gallery to process")
     parser.add_argument("--only", help="Process a single file from the raw folder", default=None)
+    parser.add_argument(
+        "--new-only", action="store_true",
+        help="Process every raw file that isn't already in the manifest yet, skipping ones already published",
+    )
     args = parser.parse_args()
+
+    if args.only and args.new_only:
+        print("ERROR: use either --only or --new-only, not both")
+        sys.exit(1)
 
     cfg = GALLERY_TYPES[args.type]
     RAW_DIR = cfg["raw_dir"]
@@ -208,22 +325,33 @@ def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     metadata_dict = load_data()
 
-    files = list_raw_images(only=args.only)
-    print(f"{len(files)} images found in {RAW_DIR}")
+    existing_items = {}
+    if OUTPUT_JSON.exists():
+        with open(OUTPUT_JSON, "r", encoding="utf-8") as f:
+            existing = json.load(f)
+        existing_items = {a["id"]: a for a in existing.get(OUTPUT_JSON_KEY, [])}
+
+    exclude_slugs = set(existing_items.keys()) if args.new_only else None
+    files = list_raw_media(only=args.only, exclude_slugs=exclude_slugs)
+    print(f"{len(files)} file(s) found in {RAW_DIR}" + (" (new only)" if args.new_only else ""))
+
+    if any(p.suffix.lower() in VALID_VIDEO_EXTENSIONS for p in files) and not (shutil.which("ffmpeg") and shutil.which("ffprobe")):
+        print("ERROR: ffmpeg/ffprobe not found on PATH, required to process video files")
+        sys.exit(1)
 
     items = []
     for path in files:
-        entry = process_one_image(path, metadata_dict)
+        if path.suffix.lower() in VALID_VIDEO_EXTENSIONS:
+            entry = process_one_video(path, metadata_dict)
+        else:
+            entry = process_one_image(path, metadata_dict)
         if entry is not None:
             items.append(entry)
 
-    if args.only and OUTPUT_JSON.exists():
-        with open(OUTPUT_JSON, "r", encoding="utf-8") as f:
-            existing = json.load(f)
-        existing_rename = {a["id"]: a for a in existing.get(OUTPUT_JSON_KEY, [])}
+    if (args.only or args.new_only) and existing_items:
         for entry in items:
-            existing_rename[entry["id"]] = entry
-        items = list(existing_rename.values())
+            existing_items[entry["id"]] = entry
+        items = list(existing_items.values())
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump({OUTPUT_JSON_KEY: items}, f, indent=2)

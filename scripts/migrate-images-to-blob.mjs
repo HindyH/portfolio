@@ -1,14 +1,3 @@
-// One-time script: uploads public/art and public/photos to Vercel Blob,
-// then rewrites artworks.json / photos.json so `sizes` and `placeholder`
-// paths point at the new Blob URLs instead of local /public paths.
-//
-// Usage:
-//   BLOB_READ_WRITE_TOKEN=xxx node scripts/migrate-images-to-blob.mjs
-//
-// Safe to re-run: it skips uploading a file if a blob with the same
-// pathname already exists (checked via `put`'s `addRandomSuffix: false`
-// + overwrite behavior), but back up your JSON files before the first run.
-
 import { put } from "@vercel/blob";
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -29,7 +18,8 @@ async function uploadFile(localPublicPath) {
   const blob = await put(blobPathname, buffer, {
     access: "public",
     addRandomSuffix: false, // keep stable, predictable URLs
-  });
+    allowOverwrite: true, // replacing an existing file at the same path is expected here
+});
 
   return blob.url;
 }
@@ -56,6 +46,13 @@ async function migrateManifest({ file, key }) {
     item.sizes = newSizes;
     // placeholder is a base64 data URL already inlined in JSON, not a file —
     // leave it as-is, it doesn't need hosting.
+
+    // video entries also carry a `video` field pointing at the mp4 file
+    if (item.video && !item.video.startsWith("http")) {
+      const url = await uploadFile(item.video);
+      console.log(`  uploaded ${item.video} -> ${url}`);
+      item.video = url;
+    }
   }
 
   await writeFile(manifestPath, JSON.stringify(data, null, 2) + "\n");

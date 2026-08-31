@@ -2,71 +2,546 @@
   "baby-swans.JPG": {
     "title": "Baby Swans",
     "year": 2025,
-    "medium": "",
-    "dimensions": "",
-    "category": "Birds"
+    "category": "Swans"
   },
   "butterfly.JPG": {
-    "title": "Butterfly",
+    "title": "Red-Spotted Purple Butterfly",
     "year": 2025,
-    "medium": "",
-    "dimensions": "",
     "category": "Insects"
   },
   "daisy.JPG": {
     "title": "Daisy",
     "year": 2025,
-    "medium": "",
-    "dimensions": "",
     "category": "Flowers"
   },
   "goldfinch-branch.JPG": {
     "title": "Goldfinch on a Branch",
     "year": 2025,
-    "medium": "",
-    "dimensions": "",
     "category": "Birds"
   },
   "housefinch.JPG": {
     "title": "House Finch Up in a Tree",
     "year": 2026,
-    "medium": "",
-    "dimensions": "",
     "category": "Birds"
   },
   "lake-house.JPG": {
     "title": "House on a Lake",
     "year": 2025,
-    "medium": "",
-    "dimensions": "",
     "category": "Scenery"
   },
   "monarch.JPG": {
     "title": "Monarch",
     "year": 2025,
-    "medium": "",
-    "dimensions": "",
     "category": "Insects"
   },
   "pink-flower.JPG": {
     "title": "Blooming Pink",
     "year": 2026,
-    "medium": "",
-    "dimensions": "",
     "category": "Flowers"
   },
   "sunset1.JPG": {
     "title": "Sunset",
     "year": 2025,
-    "medium": "",
-    "dimensions": "",
     "category": "Scenery"
   },
   "swan1.JPG": {
     "title": "Swan on the Lake",
     "year": 2025,
-    "medium": "",
-    "dimensions": "",
+    "category": "Swans"
+  },
+  "sunrise.JPG": {
+    "title": "Sunrise",
+    "year": 2025,
+    "category": "Scenery"
+  },
+  "watching.jpeg": {
+    "title": "Watching",
+    "year": 2025,
+    "category": "Scenery"
+  },
+  "butterfly-on-flower.JPG": {
+    "title": "Silver Spotted Skipper Butterfly",
+    "year": 2025,
+    "category": "Insects"
+  },
+  "bluejay-in-tree.JPG": {
+    "title": "Bluejay in the Trees",
+    "year": 2025,
     "category": "Birds"
+  },
+  "baby-swans2.JPG": {
+    "title": "Baby Swans (2)",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "baby-swans3.JPG": {
+    "title": "Baby Swans (3)",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "dragonfly.JPG": {
+    "title": "Green Dragonfly",
+    "year": 2026,
+    "category": "Insects"
+  },
+  "winding-path.JPG": {
+    "title": "Winding Path",
+    "year": 2025,
+    "category": "Scenery"
+  },
+  "screaming.JPG": {
+    "title": "Conversation",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "hint-of-autumn.JPG": {
+    "title": "Hint of Autumn",
+    "year": 2025,
+    "category": "Scenery"
+  },
+  "dragonfly2.JPG": {
+    "title": "Dragonfly",
+    "year": 2025,
+    "category": "Insects"
+  },
+  "green-heron.JPG": {
+    "title": "Green Heron",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "ruffled-green-heron.JPG": {
+    "title": "Ruffled Green Heron",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "green-lake.JPG": {
+    "title": "Green on the Lake",
+    "year": 2026,
+    "category": "Scenery"
+  },
+  "family.JPG": {
+    "title": "Family",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "hummingbird-nest.JPG": {
+    "title": "Hummingbird Nest",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "cormorant.JPG": {
+    "title": "Cormorant",
+    "year": 2025,
+    "category": "Birds"
+  },
+  "growing-up.JPG": {
+    "title": "Growing Up on the Lake",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "duckling.JPG": {
+    "title": "Duckling",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "duckling2.JPG": {
+    "title": "Duckling (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "floating.JPG": {
+    "title": "Floating",
+    "year": 2026,
+    "category": "Scenery"
+  },
+  "cliffs_edge.JPG": {
+    "title": "Cliff's Edge",
+    "year": 2024,
+    "category": "Scenery"
+  },
+  "pink_flowers.JPG": {
+    "title": "Pink Flowers",
+    "year": 2026,
+    "category": "Flowers"
+  },
+  "woodpecker.JPG": {
+    "title": "Downy Woodpecker",
+    "year": 2026,
+    "category": "Scenery"
+  },
+  "green_heron.JPG": {
+    "title": "Juvenile Green Heron",
+    "year": 2026,
+    "category": "Green Heron"
+  },
+  "green_heron2.JPG": {
+    "title": "Juvenile Green Heron (2)",
+    "year": 2026,
+    "category": "Juvenile Green Heron"
+  },
+  "green_heron3.JPG": {
+    "title": "Juvenile Green Heron (3)",
+    "year": 2026,
+    "category": "Juvenile Green Heron"
+  },
+  "green_heron4.JPG": {
+    "title": "Juvenile Green Heron (4)",
+    "year": 2026,
+    "category": "Juvenile Green Heron"
+  },
+  "green_heron5.JPG": {
+    "title": "Juvenile Green Heron (5)",
+    "year": 2026,
+    "category": "Juvenile Green Heron"
+  },
+  "green_heron6.JPG": {
+    "title": "Juvenile Green Heron (6)",
+    "year": 2026,
+    "category": "Juvenile Green Heron"
+  },
+  "green_heron7.JPG": {
+    "title": "Juvenile Green Heron (7)",
+    "year": 2026,
+    "category": "Juvenile Green Heron"
+  },
+  "city-lights.jpeg": {
+    "title": "City Lights",
+    "year": 2025,
+    "category": "Scenery"
+  },
+  "desert-sunset.JPG": {
+    "title": "Desert Sunset",
+    "year": 2026,
+    "category": "Scenery"
+  },
+  "turtles.JPG": {
+    "title": "Turtles",
+    "year": 2025,
+    "category": "Creatures"
+  },
+  "squirrel.JPG": {
+    "title": "Squirrel",
+    "year": 2026,
+    "category": "Creatures"
+  },
+  "a-place-to-rest.JPG": {
+    "title": "A Place to Rest",
+    "year": 2026,
+    "category": "Creatures"
+  },
+  "wood-duck.JPG": {
+    "title": "Male Wood Duck",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "robin.JPG": {
+    "title": "Robin",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "robin2.JPG": {
+    "title": "Robin (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "robin3.JPG": {
+    "title": "Robin (3)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "moon.JPG": {
+    "title": "Moon",
+    "year": 2026,
+    "category": "Scenery"
+  },
+  "in-flight.JPG": {
+    "title": "In Flight",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "growing-up1.JPG": {
+    "title": "Growing Up on the Lake (2)",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "growing-up2.JPG": {
+    "title": "Growing Up on the Lake (3)",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "growing-up3.JPG": {
+    "title": "Growing Up on the Lake (4)",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "growing-up4.JPG": {
+    "title": "Growing Up on the Lake (5)",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "growing-up5.JPG": {
+    "title": "Growing Up on the Lake (6)",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "among-duckweed.JPG": {
+    "title": "Among Duckweed",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "family2.JPG": {
+    "title": "Family (2)",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "huddled.JPG": {
+    "title": "Huddled",
+    "year": 2025,
+    "category": "Swans"
+  },
+  "soar.JPG": {
+    "title": "Soar",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "squirrel-snow.JPG": {
+    "title": "Squirrel in the Snow",
+    "year": 2026,
+    "category": "Creatures"
+  },
+  "gbh.JPG": {
+    "title": "Great Blue Heron",
+    "year": 2026,
+    "category": "Great Blue Heron"
+  },
+  "gbh2.JPG": {
+    "title": "Great Blue Heron (2)",
+    "year": 2026,
+    "category": "Great Blue Heron"
+  },
+  "gbh3.JPG": {
+    "title": "Great Blue Heron (3)",
+    "year": 2026,
+    "category": "Great Blue Heron"
+  },
+  "gbh4.JPG": {
+    "title": "Great Blue Heron (4)",
+    "year": 2026,
+    "category": "Great Blue Heron"
+  },
+  "gbh5.JPG": {
+    "title": "Great Blue Heron (5)",
+    "year": 2026,
+    "category": "Great Blue Heron"
+  },
+  "gbh6.JPG": {
+    "title": "Great Blue Heron (6)",
+    "year": 2026,
+    "category": "Great Blue Heron"
+  },
+  "egret.JPG": {
+    "title": "Great Egret",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "egret2.JPG": {
+    "title": "Great Egret (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "egret3.JPG": {
+    "title": "Great Egret (3)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "canada-goose.JPG": {
+    "title": "Canada Goose",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "canada-goose2.JPG": {
+    "title": "Canada Goose (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "sparrow.JPG": {
+    "title": "House Sparrow",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "sparrow2.JPG": {
+    "title": "House Sparrow (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "harriss-hawk.JPEG": {
+    "title": "Harris's Hawk",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "harriss-hawk2.JPG": {
+    "title": "Harris's Hawk (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "wood-duck2.JPG": {
+    "title": "Female Wood Duck",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "pigeon.JPG": {
+    "title": "Pigeon",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "pigeon2.JPG": {
+    "title": "Pigeon (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "hummingbird-moth.JPG": {
+    "title": "Hummingbird Moth",
+    "year": 2026,
+    "category": "Insects"
+  },
+  "great-spangled-fritillary.JPG": {
+    "title": "Great Spangled Fritillary Butterfly",
+    "year": 2026,
+    "category": "Insects"
+  },
+  "red-crown-imperial-lily.JPG": {
+    "title": "Red Crown Imperial Lily",
+    "year": 2026,
+    "category": "Flowers"
+  },
+  "vibrant-color.JPG": {
+    "title": "Vibrant in Color",
+    "year": 2026,
+    "category": "Flowers"
+  },
+  "boobook.JPG": {
+    "title": "Australian Boobook",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "boobook2.JPG": {
+    "title": "Australian Boobook (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "eurasian-eagle-owl.JPG": {
+    "title": "Eurasian Eagle-owl",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "eurasian-eagle-owl2.JPG": {
+    "title": "Eurasian Eagle-owl (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "african-hawk-eagle.JPG": {
+    "title": "African Hawk-eagle",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "african-hawk-eagle2.JPG": {
+    "title": "African Hawk-eagle (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "african-hawk-eagle3.JPG": {
+    "title": "African Hawk-eagle (3)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "black-backed-gull.JPG": {
+    "title": "Black-backed Gull",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "sparrow-in-snow.JPG": {
+    "title": "House Sparrow in the Snow",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "eastern-tiger-swallowtail.JPG": {
+    "title": "Eastern Tiger Swallowtail Butterfly",
+    "year": 2026,
+    "category": "Insects"
+  },
+  "junco.JPG": {
+    "title": "Dark Eyed Junco",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "starling.JPG": {
+    "title": "Starling",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "cedar-waxwings.JPEG": {
+    "title": "Cedar Waxwings",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "kingbird.JPG": {
+    "title": "Eastern Kingbird",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "rosehips.JPG": {
+    "title": "Rose Hips",
+    "year": 2025,
+    "category": "Flowers"
+  },
+  "squirrel2.JPG": {
+    "title": "Squirrel (2)",
+    "year": 2026,
+    "category": "Creatures"
+  },
+  "hydrangeas.JPG": {
+    "title": "Hydrangeas",
+    "year": 2025,
+    "category": "Flowers"
+  },
+  "white-flowers.JPG": {
+    "title": "Blooming White",
+    "year": 2025,
+    "category": "Flowers"
+  },
+  "bluejay2.JPG": {
+    "title": "Bluejay in the Snow",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "bluejay3.JPG": {
+    "title": "Bluejay in the Snow (2)",
+    "year": 2026,
+    "category": "Birds"
+  },
+  "ripped-apart.JPG": {
+    "title": "Ripped Apart",
+    "year": 2026,
+    "category": "Scenery"
+  },
+  "city-snow.JPG": {
+    "title": "City Snow",
+    "year": 2026,
+    "category": "Scenery"
+  },
+  "cold-seat.JPG": {
+    "title": "Cold Seat",
+    "year": 2026,
+    "category": "Scenery"
+  },
+  "hidden-path.JPG": {
+    "title": "Hidden Path",
+    "year": 2025,
+    "category": "Scenery"
+  },
+  "stepping-stones.JPG": {
+    "title": "Stepping Stones",
+    "year": 2025,
+    "category": "Scenery"
   }
 }
