@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Playfair_Display, Caveat } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/app/components/Nav";
+import { getCategories as getArtworkCategories } from "@/lib/artworks";
+import { getCategories as getPhotographyCategories } from "@/lib/photos";
 
 
 const geistSans = Geist({
@@ -34,13 +36,16 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const artworkCategories = getArtworkCategories().map((c) => c.name);
+  const photographyCategories = getPhotographyCategories().map((c) => c.name);
+
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.variable} ${caveat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
-        <Nav />
+        <Nav artworkCategories={artworkCategories} photographyCategories={photographyCategories} />
         {children}
       </body>
     </html>
