@@ -917,6 +917,890 @@
       },
       "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAbABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC8Tk1IhxUKnmpRUFk26iot1FICnGxNTh8Cok6U4UxAWOaKU0UAf//Z",
       "color": "#a4998c"
+    },
+    {
+      "id": "ashitaka",
+      "title": "Ashitaka",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/ashitaka/400.4ee70bc8a2.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/ashitaka/800.35e105c0ee.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/ashitaka/1600.d00a99dcdd.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDDjjy4FWZ4AqAiq3mbXyKsvLuj5o5W9TTmilqVdlFODCipJIk5bmru0eX0oordbGc9ym/DGiiisiz/2Q==",
+      "color": "#37353f"
+    },
+    {
+      "id": "autumn",
+      "title": "Autumn",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Digital Works",
+      "original_width": 2360,
+      "original_height": 1640,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/autumn/400.25d5649407.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/autumn/800.d066d6352c.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/autumn/1600.38df21152b.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAANABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCVpNhzTRcgnrUN4SDVQZ9ayTKsagukA60Vl7feincR/9k=",
+      "color": "#8a8d70"
+    },
+    {
+      "id": "boy-heron",
+      "title": "The Boy and the Heron",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/boy-heron/400.de1b07c11f.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/boy-heron/800.0a48f80a6f.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/boy-heron/1600.4b0fb20ccb.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDVjjyeasfZgV4qtNMobAqxFLhMk0iFFIZ5DCipDcDNFRymlyhLF8+QaUyFV20ZJqvOSDVXYrE4bjrRVQMfWiosM//Z",
+      "color": "#b7bfb1"
+    },
+    {
+      "id": "brook",
+      "title": "One Piece - Brook",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/brook/400.e9c0bec05b.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/brook/800.6804cd26e0.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/brook/1600.08e9ac82cc.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDqb6UxQkiqWmXrTOVatG4QPEQazLGHZcNj1oA2aKQdKKAI7hwsZzWfZSBpjVy7GUwarW0Sq+QKANIUUg6UUAf/2Q==",
+      "color": "#222122"
+    },
+    {
+      "id": "castle-in-sky",
+      "title": "Castle in the Sky",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 2360,
+      "original_height": 1640,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/castle-in-sky/400.5959aaa08a.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/castle-in-sky/800.9960bb0fb7.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/castle-in-sky/1600.c6a6c9ad8b.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAANABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpbtjKpUVWtgbYEmhpG3Gq93KyxcVNy3GzsayXAZQaKwo7qQIKKXMX7Fn/2Q==",
+      "color": "#a25f51"
+    },
+    {
+      "id": "chainsaw-man",
+      "title": "Chainsaw Man",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2360,
+      "original_height": 1640,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/chainsaw-man/400.385f189ea2.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/chainsaw-man/800.e7d21e2945.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/chainsaw-man/1600.ba7567e7bd.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAANABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDrpJQvFVjKxkGOlV7iVjPt7VLBy1Ta5WxfU/KKKjDHFFUSf//Z",
+      "color": "#e5d3c5"
+    },
+    {
+      "id": "chopper",
+      "title": "One Piece - Chopper",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1536,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/chopper/400.7088b792be.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/chopper/800.45441aa152.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/chopper/1600.8358f60668.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAaABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDfv75rftVGPWGLgetXNYh3pxWLaWpacfWs23c3hy8up08UxeMNjrRUkMYWNRRVmJBfoXjIHWqFlavHNlhWxJTAOaLDT0JR0opRRTJP/9k=",
+      "color": "#a95639"
+    },
+    {
+      "id": "choso",
+      "title": "Jujutsu Kaisen - Choso",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/choso/400.0a0794dee4.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/choso/800.5efa966d09.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/choso/1600.90c8cef3ba.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDZ1XUZLU/KKz7PWpZ7kKRgGr2tNGMBhWOCsUitGvNIaR2MbbkBoqraSs1upI5xRTEQajCkjDcM1FBaQ5Hy0UUwNVEVUAA4ooopAf/Z",
+      "color": "#d3b9a2"
+    },
+    {
+      "id": "decim",
+      "title": "Death Parade - Decim",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/decim/400.14d34c991d.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/decim/800.558090287e.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/decim/1600.411b94879b.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDsmOBTVfNMmcKOTUUMqlutIdi3RSA5FFMRh6zM6OApxVBZ5BMgDdaKKBnTQEmJSfSiiigR/9k=",
+      "color": "#211a1a"
+    },
+    {
+      "id": "edward",
+      "title": "Fullmetal Alchemist - Edward",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1536,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/edward/400.7e89b581f3.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/edward/800.c69962106b.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/edward/1600.060496313c.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAaABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDsicU0OCcCo7mQInXFUYrpRJy1RKVmUlc1aKjWVWUEGirJsc/rdzMeIgazrYXMuCwNb1wATyBT4FG3oPypNXRUZOLI4FmEQHNFaKAbRxRU2K5j/9k=",
+      "color": "#20232d"
+    },
+    {
+      "id": "eren",
+      "title": "Attack on Titan - Eren",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/eren/400.53f752c227.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/eren/800.d222bb5979.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/eren/1600.82befff846.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDq7q5FumTVKDV45JNp4qXUlVk+Y1gTokEquDxmpb1sUlodarBlBFFZ1tqMPkL8woqiTO1O98yYIpqlqH/HuB3pkI33fzc1pXMKGE5Hapa1KTOXE0i8BjRRcDbMwFFUI//Z",
+      "color": "#e6c9ab"
+    },
+    {
+      "id": "franky",
+      "title": "One Piece - Franky",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/franky/400.bed339ec07.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/franky/800.aae0bb0abc.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/franky/1600.42e5ddc39a.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDr5ZBGuTUUV2jnGazNXu2U7VqlayNvBJwKlysWoX1OoBBFFQQuDGOaKdybGZqFoztnHFVUg3sFBwRW9cgeWay4FAuMj1qHuWm7FyG3dYwM0VdX7oorQi5//9k=",
+      "color": "#d3ad7d"
+    },
+    {
+      "id": "frog-toad",
+      "title": "Frog and Toad",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Digital Works",
+      "original_width": 2360,
+      "original_height": 1640,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/frog-toad/400.5d75798ae4.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/frog-toad/800.45cc88e576.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/frog-toad/1600.03c174f2ce.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAANABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCSOQiQVNdTkqAKf5Sg8UjRKTzWeo7FQMSKKvCBMdKKLAf/2Q==",
+      "color": "#9fa085"
+    },
+    {
+      "id": "gojo",
+      "title": "Jujutsu Kaisen - Gojo",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1536,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/gojo/400.f16801443b.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/gojo/800.222146aa80.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/gojo/1600.77a827b56a.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAaABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDrp5liUkmoLW9SdiARWf4haRYCUrn9DupRd4JPWnYDvKKZGcoDRSAoayoa1YVzej2pW9yR3rpdW/1BrJ07/j4FMDpUGFFFKv3RRSA//9k=",
+      "color": "#171524"
+    },
+    {
+      "id": "gojo2",
+      "title": "Jujutsu Kaisen - Gojo (2)",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/gojo2/400.e3aad20f13.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/gojo2/800.e017049ecd.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/gojo2/1600.7fb8513e87.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDsGkUdTQrg9DXN6rdz283fbVeHXSsig0AdfRVO3vVlhVvWigCLUreKRCXXNcnc28aTfKMc0UU0B0FiALZKKKKAP//Z",
+      "color": "#252534"
+    },
+    {
+      "id": "gon",
+      "title": "Hunter x Hunter - Gon",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/gon/400.15ac6aa97d.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/gon/800.5dfbca16ac.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/gon/1600.8fad170550.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDq7tzGhIqtY3LyuQas3gzCay9O3rOQRxmpb1Fc3KKQdKKoZFcMAnNV7cpv4FSXfNQRABxikI0aKQdKKYz/2Q==",
+      "color": "#dfc8b4"
+    },
+    {
+      "id": "howl-and-sophie",
+      "title": "Howl and Sophie",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/howl-and-sophie/400.fb9e193046.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/howl-and-sophie/800.ba02af65fe.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/howl-and-sophie/1600.5d029c7637.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB4jdugodSn3hVsXCR4AFNumSXGBXR7TWxy+z0uVKKsi2yKKr2ke5nyMrJy/NW9owKKK5MRubw+ElU8UUUVxXLP/9k=",
+      "color": "#4a90bc"
+    },
+    {
+      "id": "howls",
+      "title": "Howl's Moving Castle",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 2360,
+      "original_height": 1640,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/howls/400.83b1c3efad.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/howls/800.8f58b47611.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/howls/1600.09f96b3a97.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAANABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC21sydaRMK4Bq5cMTVIoC4Nae2uY+ySNRIiUBoqWH/AFS0U+Zk8iP/2Q==",
+      "color": "#6fb3d3"
+    },
+    {
+      "id": "huey",
+      "title": "The Boondocks - Huey",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/huey/400.6fe3312d6e.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/huey/800.7546031a0f.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/huey/1600.46c04e2b71.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDX1zVDZrhetZOm69JJcBW6E1pa/p/2gbqzNN0v9+p9DUt6lJaHYRPvjDetFJEmyMD0oqiSrqX+pNZ9gD5gwa0tQGYTWbp3+upWuO5ur0FFA6UUxH//2Q==",
+      "color": "#a87d67"
+    },
+    {
+      "id": "illumi",
+      "title": "Hunter x Hunter - Illumi",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/illumi/400.d1840c7796.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/illumi/800.4285278155.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/illumi/1600.4f7938c134.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDrp32ISKq21yzyYaotTutq7QeazYLpklUnpSFdHTUVXjuFZAaKYXRhaoW80AAmqrK+5eDXSTW8bnLLmkFtFx8opC5SC2j/AHK5oq+qKBgCigdkf//Z",
+      "color": "#e0e6cd"
+    },
+    {
+      "id": "inumaki",
+      "title": "Jujutsu Kaisen - Inumaki",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/inumaki/400.4f7bb73559.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/inumaki/800.62a4ece23a.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/inumaki/1600.b2d26d6dd0.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDrpX2imRyknFQ384iHNVorsF1x3oFdGvRTUOVBooGZ2pIG60y3iTaOKKKZHU04xhBRRRSLP//Z",
+      "color": "#dee0d5"
+    },
+    {
+      "id": "inumaki2",
+      "title": "Jujutsu Kaisen - Inumaki (2)",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/inumaki2/400.b09001f561.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/inumaki2/800.cf28b8246a.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/inumaki2/1600.67ea05fcd9.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDrpJAtRiUZ61Q1q6a2TKisex1d5pwpB60WA65TkUUyE5jU0UAVNShSVMOM1SsrGBJAVTmiimBtqAFAFFFFID//2Q==",
+      "color": "#e9e3df"
+    },
+    {
+      "id": "kiki-and-tombo",
+      "title": "Kiki and Tombo",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 1536,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/kiki-and-tombo/400.09dd94a132.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/kiki-and-tombo/800.56d30e00c0.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/kiki-and-tombo/1600.d5fb445467.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAaABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDsicdaY0yqMk1BdThRjNZ9zP8AIOaBpGwrhhkUVVtmzAvNFAiOaEu3Iphst5ANaJFHegZHHAEQLRU9FAj/2Q==",
+      "color": "#e5b7aa"
+    },
+    {
+      "id": "lake",
+      "title": "Lake",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Digital Works",
+      "original_width": 2048,
+      "original_height": 1536,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/lake/400.4539c638e4.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/lake/800.60f1903d11.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/lake/1600.f31f4bcc8c.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAPABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCDTpmRwpHFbokTZmudinVXGBWrG+9K51HmM+flJWvUDYoqo8QLE0U/ZsPaH//Z",
+      "color": "#78aa8d"
+    },
+    {
+      "id": "law",
+      "title": "One Piece - Law",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/law/400.e6b15f82ee.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/law/800.5fae10df78.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/law/1600.1d8a1595be.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDrLliqEiqkF6N21jT9Sk2RcViAkMGzWcpWZSVzqFcMMiiqltMDCtFWIg1NS3FVbW2Vzg1b1GoLA/vKh0+Z3uHPbQ0Y7UKgAoqwOlFaCP/Z",
+      "color": "#171615"
+    },
+    {
+      "id": "luffy",
+      "title": "One Piece - Luffy",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1536,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy/400.8af7c6cf5e.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy/800.158b473325.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy/1600.3bf852d988.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAaABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDrbiYQoWNVLbUlmk21NfKpiO7pWdZxxLNletS3qUlobY5FFC9BRVEmfqrhISSaxdPnD3OAe9aev/8AHsa53SP+PsfWs5bnVTV4M7hPuCikj+4PpRWhyn//2Q==",
+      "color": "#d9b598"
+    },
+    {
+      "id": "luffy2",
+      "title": "One Piece - Luffy (2)",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy2/400.a4c1344e60.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy2/800.0569090d75.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy2/1600.b08eca0a98.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDrZ5hEMmooLxJmwDzUlzF5iEVnwWbxT7h0qXe5SSsa9FIvQUVRItJgUUUALRRRQB//2Q==",
+      "color": "#d7b37e"
+    },
+    {
+      "id": "luffy3",
+      "title": "One Piece - Luffy (3)",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy3/400.6d64fbdd25.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy3/800.e8327c9ba9.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy3/1600.ae7a94efdc.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCyI/KT3qaGMlck1XJLpSRyunHasotsTtyl3ySaKYtwcUU7onkZAgwOKjb71FFQbvYQsRRRRUHKf//Z",
+      "color": "#c5c3a8"
+    },
+    {
+      "id": "luffy4",
+      "title": "One Piece - Luffy (4)",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy4/400.b7184f06a4.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy4/800.d1d8473cd3.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/luffy4/1600.4b21d718d2.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDennkAOKjsLqQyEPTtSlWGMkEVX0rdNlsVmrrQ15bq5uBwRRTVQgUVZmcfqE8jEAtxW9oIH2cUUUS+M1/5dmvRRRTMT//Z",
+      "color": "#b67047"
+    },
+    {
+      "id": "megumi",
+      "title": "Jujutsu Kaisen - Megumi",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/megumi/400.75d8faa54d.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/megumi/800.ceee1e5df0.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/megumi/1600.cc565af3a4.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDe1e7e3j+QVm6Zqssk21wa1NWeNEzIKxba6g+0qEA60DtodWjZUGimxNmMGigRl62oaPmsXT4E+0A470UU0B1sQxGKKKKQH//Z",
+      "color": "#eec5b5"
+    },
+    {
+      "id": "nami",
+      "title": "One Piece - Nami",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/nami/400.6cebc9e891.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/nami/800.f79e3e0d02.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/nami/1600.e989bab345.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDsJDhTUNu5ZjUso+Q1DbAgml1H0LVFFFMRHKwVeait5FYnFOuQCvNQWoAfikPoXqKKKYj/2Q==",
+      "color": "#442d2c"
+    },
+    {
+      "id": "nico-robin",
+      "title": "One Piece - Robin",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/nico-robin/400.03a4a7595f.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/nico-robin/800.559eab4b73.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/nico-robin/1600.fd82ce3c18.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDq7uURxmqthcb3IqxeoGhNVdNj5JpjNSiiikIhuSBEc1V09wSRVq4GUINVrRArnFPoBfooopAf/9k=",
+      "color": "#544372"
+    },
+    {
+      "id": "over-garden-wall",
+      "title": "Over the Garden Wall",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Digital Works",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/over-garden-wall/400.fba58a305f.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/over-garden-wall/800.26dfa906ea.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/over-garden-wall/1600.c352fc0ea2.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB68rTGFTR4C8mmsVAJrnSua3IaKTcDRU2KuhsjEDrTQxI60UVSJYAcUUUUAf/Z",
+      "color": "#8a734b"
+    },
+    {
+      "id": "perona",
+      "title": "One Piece - Perona",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1940,
+      "original_height": 2660,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/perona/400.d85c2763b9.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/perona/800.540f47a140.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/perona/1600.1541079fae.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAbABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDp74sE4qrZO5fBq9d/6s1WsR8x4ouWnoaA6UUtFBBBcn5cVDDhWGKnn6VXj/1gpFJaF0dKKB0opkn/2Q==",
+      "color": "#c7819c"
+    },
+    {
+      "id": "ponyo",
+      "title": "Ponyo",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/ponyo/400.7ec8952276.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/ponyo/800.fc4ed928fc.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/ponyo/1600.991d336ea5.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDXaMqMkVFuGa1LhU2HOKyiq7+tVzGPIrD6KkHl4+9RV8yM+RkN9M/rWa0r+tFFYM6YDfNf+8aKKKko/9k=",
+      "color": "#85c1cd"
+    },
+    {
+      "id": "princess-mononoke",
+      "title": "Princess Mononoke",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 1536,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/princess-mononoke/400.b2fbc1cd33.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/princess-mononoke/800.c238a37f38.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/princess-mononoke/1600.901093c9df.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAaABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDNtLXeRkVr/wBmjysgdqvSWaRYCDFW448w49qzHY4W5hKzMMUVuXVlmdjiii5Jo6jd+W3ApdPu2lPPSodRHzUab1plsLuXE7cUUy6/17UUEn//2Q==",
+      "color": "#e1dcc9"
+    },
+    {
+      "id": "ranma1/2",
+      "title": "Ranma 1/2",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2360,
+      "original_height": 1640,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/ranma1-2/400.76a3f7b2bc.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/ranma1-2/800.c12f53b9d3.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/ranma1-2/1600.2a8e661dc1.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAANABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDTvbiWaQxrVWC2lguA1aSRqZM96UczYpSZcVctJLIUHFFWY1GwcUUyD//Z",
+      "color": "#393141"
+    },
+    {
+      "id": "sanji",
+      "title": "One Piece - Sanji",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2634,
+      "original_height": 3283,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/sanji/400.a68a044685.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/sanji/800.ad6da4da30.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/sanji/1600.ff376fb95d.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAYABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDrbmXyoi3pVCw1EXEpX0q5fLut2HtWRo8IjuGz60AdBRRRQBWvGxERWZZgrcZ9aKKANsdKKKKAP//Z",
+      "color": "#050408"
+    },
+    {
+      "id": "scott-pilgrim",
+      "title": "Scott Pilgrim",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Digital Works",
+      "original_width": 2238,
+      "original_height": 1640,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/scott-pilgrim/400.39ee57e3d2.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/scott-pilgrim/800.0ff8717360.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/scott-pilgrim/1600.38b279a1f5.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAOABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwChb4aM0kAG5s1DbSFQRQHIc0lEE9Rzy4YiioWOWopWA//Z",
+      "color": "#37392f"
+    },
+    {
+      "id": "self-portrait",
+      "title": "Self Portrait",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Digital Works",
+      "original_width": 1640,
+      "original_height": 1640,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/self-portrait/400.5d5fb8e001.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/self-portrait/800.0541a6dd4d.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/self-portrait/1600.5355c302a1.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCgYhK4C9KLm1+TmpIj5U2DVm4dWTFZzk00kau3KZyWiFc0VfjgBQc0VZkUJmO7OeabG7M3JoopPcfQV55FbAbiiiiqEf/Z",
+      "color": "#0b0909"
+    },
+    {
+      "id": "self-portrait2",
+      "title": "Self Portrait - Scott Pilgrim",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Digital Works",
+      "original_width": 1333,
+      "original_height": 1640,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/self-portrait2/400.8a695feae3.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/self-portrait2/800.c8c7306635.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/self-portrait2/1600.091282e779.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAYABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCnJLhsCnjIxmqznMoq2PnA9qksWiiigCpIuJBircakLRRVJGbbTFoooqTQ/9k=",
+      "color": "#756c69"
+    },
+    {
+      "id": "shorter",
+      "title": "Banana Fish - Shorter",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/shorter/400.157db2a1e6.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/shorter/800.635215ea7b.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/shorter/1600.a392a0a5e7.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDqL6Voo8rUdhdGUYak1CdFG096p29wsLjjrScuhXQ3KKjSQMoNFMkzb1FaUZFMaFCV4oorM0NKJQIwBRRRVkM//9k=",
+      "color": "#1b352a"
+    },
+    {
+      "id": "sonic",
+      "title": "Sonic the Hedgehog",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1457,
+      "original_height": 1457,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/sonic/400.13cb10b181.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/sonic/800.260df03461.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/sonic/1600.f2e880870a.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDq7qfyUyKy49UYz7TV++UsnArIS0Zpwcd6uNupLudDG+5AfWimwptjAoqSh7KD1pixoDkCiikBLRRRQB//2Q==",
+      "color": "#476aa0"
+    },
+    {
+      "id": "spirited-away",
+      "title": "Spirited Away",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 2048,
+      "original_height": 1536,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/spirited-away/400.251a33995e.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/spirited-away/800.5cb3a9876d.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/spirited-away/1600.933d45e4d1.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAPABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBsdwhGBTGu41fBrLjnwaglkLS5qLs0dOJsNcoTmisoS8UUrsv2cO5//9k=",
+      "color": "#392118"
+    },
+    {
+      "id": "spirited-away2",
+      "title": "Spirited Away (2)",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 2360,
+      "original_height": 1640,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/spirited-away2/400.b5ed18b142.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/spirited-away2/800.c3c0cb0a66.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/spirited-away2/1600.bb0c62e578.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAANABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC8WjU9aa1yg4FZQlY9TSFj61q7sxSSNcSxkZzRWUGOOtFOzI93sf/Z",
+      "color": "#61889a"
+    },
+    {
+      "id": "sukuna",
+      "title": "Jujutsu Kaisen - Sukuna",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/sukuna/400.d05aefc2ae.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/sukuna/800.a5b506b7c2.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/sukuna/1600.1807b7dfcd.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpb+YouBVKxunM21qtak6ImWrCS/C3A2+tYydpHTTjzR2OtByKKgt5d8Kt60Vsc9jM1wfJWFbxKZAcd6KKxfxHbD+EdbajEC0UUVscR//Z",
+      "color": "#c5301a"
+    },
+    {
+      "id": "tanjiro",
+      "title": "Demon Slayer - Tanjiro",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/tanjiro/400.35b4345c68.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/tanjiro/800.5b35977f9c.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/tanjiro/1600.8147516503.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDsJWCoSar204diBUWq3HkwmsrSb4PNjPegDpaKQHIBooAx9cR5Y9qjrWNp9jNb3IYg4Jrp5gGlANJMijBAoAsRZ8sZooj+4KKAP//Z",
+      "color": "#29231e"
+    },
+    {
+      "id": "together",
+      "title": "Together",
+      "year": 2026,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Digital Works",
+      "original_width": 2048,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/together/400.a57d6a0227.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/together/800.9569e50e27.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/together/1600.45f68f7229.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAUABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC9c3GyM7qz7e4Z5SBVqbFwcdqktrREOcUbGe40wknNFTsCGxRSuPkK9uOKsoetFFEtyY7DgAeTRRRSKP/Z",
+      "color": "#c8dfc8"
+    },
+    {
+      "id": "totoro",
+      "title": "My Neighbor Totoro",
+      "year": 2024,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Studio Ghibli",
+      "original_width": 2048,
+      "original_height": 1536,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/totoro/400.77b9915cd1.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/totoro/800.4147ddb8a8.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/totoro/1600.9335ee6958.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAPABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDnljBi96SO1dgSBV1YMCrcGEQjHWoA594yrEGitOW23SE0U7iP/9k=",
+      "color": "#212519"
+    },
+    {
+      "id": "usopp",
+      "title": "One Piece - Usopp",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1536,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/usopp/400.cf030b6f44.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/usopp/800.8885b4c22a.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/usopp/1600.4b1662270a.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAaABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDr5n2ITVW2u/NkK0+/k2wmsnTZszn61Leo0tDoaKRTkCiqEUtTwLdiawdPlxcYHrW5q3/HuawNM/4+vxqJblI6uIkoKKcn3BRVEn//2Q==",
+      "color": "#45371b"
+    },
+    {
+      "id": "watching",
+      "title": "Watching",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Digital Works",
+      "original_width": 1640,
+      "original_height": 2360,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/watching/400.f181b9b23c.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/watching/800.f7ceebf9ea.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/watching/1600.d78bda47c6.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAcABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDNV2A2r0qJwd2DU7IE+5zSw7XyH60JWZVtRiwJt5NFDW7ljg8UU7oNSZFMKncMmo05JYdan3FlYmqcbEORSSBvQmE5HBophAzRT5ETzM//2Q==",
+      "color": "#d78767"
+    },
+    {
+      "id": "zoro",
+      "title": "One Piece - Zoro",
+      "year": 2025,
+      "medium": "Digital",
+      "dimensions": "",
+      "category": "Characters",
+      "original_width": 1536,
+      "original_height": 2048,
+      "sizes": {
+        "400": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/zoro/400.bcb252b5cd.jpg",
+        "800": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/zoro/800.4dd14effec.jpg",
+        "1600": "https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/zoro/1600.2540e87d91.jpg"
+      },
+      "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAaABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDr5ZAi5NQQThmxmk1EH7OxFZmjSlpWDHoaQG/RRRTAhuU8yFh7Vi2Nq8d0xHTNb7fdNVYR+9NAFlc7RminUUAf/9k=",
+      "color": "#16160f"
     }
   ]
 }
