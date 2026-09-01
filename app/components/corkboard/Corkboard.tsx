@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { PinnedMedia } from "@/types/media";
 
-const CYCLE_INTERVAL_MS = 3500;
+const CYCLE_INTERVAL_MS = 8000;
 const FADE_MS = 700;
 const MAX_CONCURRENT_VIDEOS = 2; // avoids the corkboard feeling overwhelming when too many videos land at once
 
@@ -46,7 +46,24 @@ function shuffled<T>(arr: T[]): T[] {
     return copy;
 }
 
+function usePrefersReducedMotion(): boolean {
+    const [prefersReduced, setPrefersReduced] = useState(false);
+
+    useEffect(() => {
+        const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+        // eslint-disable-next-line react-hooks/set-state-in-effect -- reading a browser API is only possible client-side, on mount
+        setPrefersReduced(mq.matches);
+        const handleChange = (e: MediaQueryListEvent) => setPrefersReduced(e.matches);
+        mq.addEventListener("change", handleChange);
+        return () => mq.removeEventListener("change", handleChange);
+    }, []);
+
+    return prefersReduced;
+}
+
 export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; className?: string }) {
+    const prefersReducedMotion = usePrefersReducedMotion();
+
     // separate draw pools per orientation so a slot only ever pulls a same-shaped image from its pool -
     // falls back to the other pool if one orientation runs out, so slots still fill even with a lopsided media mix
     const poolsRef = useRef<Record<"landscape" | "portrait", PinnedMedia[]>>({ landscape: [], portrait: [] });
@@ -125,8 +142,11 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
 
     // only cycle if there are more images than visible slots - otherwise everything is already on screen.
     // the frame and pin are static markup that never re-renders position; only the image inside crossfades.
+    // also fully skipped when the user has OS-level "reduce motion" turned on - the board still fills once
+    // on load, it just never rotates afterward.
     useEffect(() => {
         if (media.length <= SLOTS.length) return;
+        if (prefersReducedMotion) return;
 
         const interval = setInterval(() => {
             setSlots((prev) => {
@@ -163,7 +183,7 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
 
         return () => clearInterval(interval);
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [media]);
+    }, [media, prefersReducedMotion]);
 
     if (media.length === 0) return null;
 
@@ -188,13 +208,13 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
             <div
                 className="hidden lg:flex absolute left-0 top-0 h-full flex-col items-start justify-center gap-10 pl-[8%] pt-16 pb-6">
                 {leftItems.map((s) => (
-                    <PinnedItem key={s.slot.id} state={s} onVideoEnded={markVideoEnded}/>
+                    <PinnedItem key={s.slot.id} state={s} onVideoEnded={markVideoEnded} prefersReducedMotion={prefersReducedMotion}/>
                 ))}
             </div>
             <div
                 className="hidden lg:flex absolute right-0 top-0 h-full flex-col items-end justify-center gap-10 pr-[8%] pt-16 pb-6">
                 {rightItems.map((s) => (
-                    <PinnedItem key={s.slot.id} state={s} onVideoEnded={markVideoEnded}/>
+                    <PinnedItem key={s.slot.id} state={s} onVideoEnded={markVideoEnded} prefersReducedMotion={prefersReducedMotion}/>
                 ))}
             </div>
         </div>
@@ -251,7 +271,7 @@ export function Pushpin({size = 18, className = ""}: { size?: number; className?
     );
 }
 
-function PinnedItem({ state, onVideoEnded }: { state: SlotState; onVideoEnded: (key: number) => void }) {
+function PinnedItem({ state, onVideoEnded, prefersReducedMotion }: { state: SlotState; onVideoEnded: (key: number) => void; prefersReducedMotion: boolean }) {
     const { slot, media, imgVisible, key } = state;
     if (!media) return null;
     const { rotation, offsetX, width, height } = slot;
@@ -275,7 +295,7 @@ function PinnedItem({ state, onVideoEnded }: { state: SlotState; onVideoEnded: (
                             key={key}
                             src={media.src}
                             className="h-full w-full object-cover"
-                            autoPlay
+                            autoPlay={!prefersReducedMotion}
                             muted
                             playsInline
                             onEnded={() => onVideoEnded(key)}
