@@ -5,6 +5,17 @@ import type { GalleryItem } from "@/types/gallery";
 import type { PinnedMedia } from "@/types/media";
 
 function galleryItemToMedia(item: GalleryItem): PinnedMedia {
+    if (item.type === "video" && item.video) {
+        return {
+            id: item.id,
+            type: "video",
+            src: item.video,
+            title: item.title,
+            width: item.original_width,
+            height: item.original_height,
+        };
+    }
+
     return {
         id: item.id,
         type: "image",

@@ -67,20 +67,21 @@ function Lightbox({ item, onClose }: { item: GalleryItem; onClose: () => void })
       <div className="relative max-h-[85vh] w-full max-w-4xl" onClick={(e) => e.stopPropagation()}>
         <div className="relative mx-auto max-h-[75vh] w-full" style={{ aspectRatio: item.original_width / item.original_height }}>
           {isVideo && item.video ? (
-            <video
-              src={item.video}
-              poster={item.sizes["1600"] ?? item.sizes["800"]}
-              controls
-              autoPlay
-              playsInline
-              className="h-full w-full object-contain"
-            />
+              <video
+                  src={item.video}
+                  poster={item.sizes["1600"] ?? item.sizes["800"]}
+                  controls
+                  autoPlay
+                  loop
+                  playsInline
+                  className="h-full w-full object-contain"
+              />
           ) : (
-            <Image
-              src={item.sizes["1600"] ?? item.sizes["800"]}
-              alt={item.title}
-              fill
-              placeholder="blur"
+              <Image
+                  src={item.sizes["1600"] ?? item.sizes["800"]}
+                  alt={item.title}
+                  fill
+                  placeholder="blur"
               blurDataURL={item.placeholder}
               className="object-contain"
               sizes="90vw"

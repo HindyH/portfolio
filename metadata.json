@@ -327,25 +327,25 @@
     "title": "Howl and Sophie",
     "year": 2024,
     "medium": "Digital",
-    "category": "Studio Ghibli"
+    "category": "Fan Art"
   },
   "totoro.JPG": {
     "title": "My Neighbor Totoro",
     "year": 2024,
     "medium": "Digital",
-    "category": "Studio Ghibli"
+    "category": "Fan Art"
   },
   "princess-mononoke.JPG": {
     "title": "Princess Mononoke",
     "year": 2024,
     "medium": "Digital",
-    "category": "Studio Ghibli"
+    "category": "Fan Art"
   },
   "spirited-away.JPG": {
     "title": "Spirited Away",
     "year": 2024,
     "medium": "Digital",
-    "category": "Studio Ghibli"
+    "category": "Fan Art"
   },
   "lake.JPG": {
     "title": "Lake",
@@ -357,133 +357,73 @@
     "title": "Ponyo",
     "year": 2024,
     "medium": "Digital",
-    "category": "Studio Ghibli"
+    "category": "Fan Art"
   },
   "luffy.JPG": {
     "title": "One Piece - Luffy",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
   "luffy2.JPG": {
     "title": "One Piece - Luffy (2)",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
-  },
-  "edward.JPG": {
-    "title": "Fullmetal Alchemist - Edward",
-    "year": 2024,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "decim.JPG": {
-    "title": "Death Parade - Decim",
-    "year": 2025,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "chopper.JPG": {
-    "title": "One Piece - Chopper",
-    "year": 2025,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "usopp.JPG": {
-    "title": "One Piece - Usopp",
-    "year": 2025,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "sanji.JPG": {
-    "title": "One Piece - Sanji",
-    "year": 2025,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "gojo.JPG": {
-    "title": "Jujutsu Kaisen - Gojo",
-    "year": 2025,
-    "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
   "kiki-and-tombo.JPG": {
     "title": "Kiki and Tombo",
     "year": 2024,
     "medium": "Digital",
-    "category": "Studio Ghibli"
+    "category": "Fan Art"
   },
   "howls.JPG": {
     "title": "Howl's Moving Castle",
     "year": 2024,
     "medium": "Digital",
-    "category": "Studio Ghibli"
-  },
-  "castle-in-sky.JPG": {
-    "title": "Castle in the Sky",
-    "year": 2024,
-    "medium": "Digital",
-    "category": "Studio Ghibli"
+    "category": "Fan Art"
   },
   "luffy3.JPG": {
     "title": "One Piece - Luffy (3)",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
-  },
-  "autumn.JPG": {
-    "title": "Autumn",
-    "year": 2024,
-    "medium": "Digital",
-    "category": "Digital Works"
+    "category": "Fan Art"
   },
   "spirited-away2.JPG": {
     "title": "Spirited Away (2)",
     "year": 2024,
     "medium": "Digital",
-    "category": "Studio Ghibli"
-  },
-  "zoro.JPG": {
-    "title": "One Piece - Zoro",
-    "year": 2025,
-    "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
   "over-garden-wall.JPG": {
     "title": "Over the Garden Wall",
     "year": 2026,
     "medium": "Digital",
-    "category": "Digital Works"
+    "category": "Fan Art"
   },
   "frog-toad.JPG": {
     "title": "Frog and Toad",
     "year": 2026,
     "medium": "Digital",
-    "category": "Digital Works"
+    "category": "Fan Art"
   },
   "ashitaka.JPG": {
     "title": "Ashitaka",
     "year": 2026,
     "medium": "Digital",
-    "category": "Studio Ghibli"
+    "category": "Fan Art"
   },
   "boy-heron.JPG": {
     "title": "The Boy and the Heron",
     "year": 2026,
     "medium": "Digital",
-    "category": "Studio Ghibli"
+    "category": "Fan Art"
   },
   "scott-pilgrim.JPG": {
     "title": "Scott Pilgrim",
     "year": 2025,
     "medium": "Digital",
-    "category": "Digital Works"
-  },
-  "gon.JPG": {
-    "title": "Hunter x Hunter - Gon",
-    "year": 2024,
-    "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
   "self-portrait.JPG": {
     "title": "Self Portrait",
@@ -495,7 +435,7 @@
     "title": "Self Portrait - Scott Pilgrim",
     "year": 2025,
     "medium": "Digital",
-    "category": "Digital Works"
+    "category": "Fan Art"
   },
   "watching.JPG": {
     "title": "Watching",
@@ -503,71 +443,41 @@
     "medium": "Digital",
     "category": "Digital Works"
   },
-  "eren.JPG": {
-    "title": "Attack on Titan - Eren",
-    "year": 2025,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "brook.JPG": {
-    "title": "One Piece - Brook",
-    "year": 2026,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "nami.JPG": {
-    "title": "One Piece - Nami",
-    "year": 2026,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "nico-robin.JPG": {
-    "title": "One Piece - Robin",
-    "year": 2026,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "franky.JPG": {
-    "title": "One Piece - Franky",
-    "year": 2026,
-    "medium": "Digital",
-    "category": "Characters"
-  },
   "choso.JPG": {
     "title": "Jujutsu Kaisen - Choso",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
   "inumaki.JPG": {
     "title": "Jujutsu Kaisen - Inumaki",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
   "sukuna.JPG": {
     "title": "Jujutsu Kaisen - Sukuna",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
   "gojo2.JPG": {
-    "title": "Jujutsu Kaisen - Gojo (2)",
+    "title": "Jujutsu Kaisen - Gojo",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
   "inumaki2.JPG": {
     "title": "Jujutsu Kaisen - Inumaki (2)",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
   "megumi.JPG": {
     "title": "Jujutsu Kaisen - Megumi",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
   "together.JPG": {
     "title": "Together",
@@ -575,64 +485,172 @@
     "medium": "Digital",
     "category": "Digital Works"
   },
-  "shorter.JPG": {
-    "title": "Banana Fish - Shorter",
-    "year": 2024,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "law.JPG": {
-    "title": "One Piece - Law",
-    "year": 2026,
-    "medium": "Digital",
-    "category": "Characters"
-  },
   "luffy4.JPG": {
     "title": "One Piece - Luffy (4)",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
-  "perona.JPG": {
-    "title": "One Piece - Perona",
-    "year": 2026,
-    "medium": "Digital",
-    "category": "Characters"
-  },
-  "tanjiro.JPG": {
-    "title": "Demon Slayer - Tanjiro",
+  "kikis-delivery.MP4": {
+    "title": "Kiki's Delivery Service",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Fan Art"
   },
-  "sonic.JPG": {
-    "title": "Sonic the Hedgehog",
+  "cat.MP4": {
+    "title": "Cat",
+    "year": 2024,
+    "medium": "Digital",
+    "category": "Digital Works"
+  },
+  "blobs.MP4": {
+    "title": "Blobs",
+    "year": 2024,
+    "medium": "Digital",
+    "category": "Digital Works"
+  },
+  "kikis-delivery-vid.mov": {
+    "title": "Kiki's Delivery Service",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Speed Draws"
   },
-  "illumi.JPG": {
-    "title": "Hunter x Hunter - Illumi",
+  "spirited-away-vid.mov": {
+    "title": "Spirited Away",
+    "year": 2024,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "princess-mononoke-vid.MP4": {
+    "title": "Princess Mononoke",
+    "year": 2024,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "ponyo-vid.MP4": {
+    "title": "Ponyo",
+    "year": 2024,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "ashitaka.MP4": {
+    "title": "Ashitaka",
+    "year": 2026,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "luffy-vid.MP4": {
+    "title": "One Piece - Luffy",
     "year": 2025,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Speed Draws"
   },
-  "chainsaw-man.JPG": {
-    "title": "Chainsaw Man",
+  "luffy2-vid.MP4": {
+    "title": "One Piece - Luffy (2)",
+    "year": 2025,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "luffy3-vid.MP4": {
+    "title": "One Piece - Luffy (3)",
+    "year": 2025,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "luffy4-vid.MP4": {
+    "title": "One Piece - Luffy (4)",
+    "year": 2025,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "frod-toad-vid.mov": {
+    "title": "Frog and Toad",
     "year": 2026,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Speed Draws"
   },
-  "ranma1/2.JPG": {
-    "title": "Ranma 1/2",
+  "spirited-away2-vid.mov": {
+    "title": "Spirited Away (2)",
+    "year": 2024,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "totoro-vid.mov": {
+    "title": "My Neighbor Totoro",
+    "year": 2024,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "kiki-tombo-vid.MP4": {
+    "title": "Kiki and Tombo",
+    "year": 2024,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "scott-pilgrim-vid.MP4": {
+    "title": "Scott Pilgrim",
+    "year": 2025,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "over-garden-wall-vid.MP4": {
+    "title": "Over the Garden Wall",
     "year": 2026,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Speed Draws"
   },
-  "huey.JPG": {
-    "title": "The Boondocks - Huey",
+  "howls-moving-castle-vid.MP4": {
+    "title": "Howl's Moving Castle",
+    "year": 2024,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "boy-heron-vid.MP4": {
+    "title": "The Boy and the Heron",
     "year": 2026,
     "medium": "Digital",
-    "category": "Characters"
+    "category": "Speed Draws"
+  },
+  "inumaki-vid.MP4": {
+    "title": "Jujutsu Kaisen - Inumaki",
+    "year": 2025,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "sukuna-vid.MP4": {
+    "title": "Jujutsu Kaisen - Sukuna",
+    "year": 2025,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "gojo2-vid.MP4": {
+    "title": "Jujutsu Kaisen - Gojo",
+    "year": 2025,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "choso-vid.MP4": {
+    "title": "Jujutsu Kaisen - Choso",
+    "year": 2025,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "inumaki2-vid.MP4": {
+    "title": "Jujutsu Kaisen - Inumaki (2)",
+    "year": 2025,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "megumi-vid.MP4": {
+    "title": "Jujutsu Kaisen - Megumi",
+    "year": 2025,
+    "medium": "Digital",
+    "category": "Speed Draws"
+  },
+  "howl-sophie-vid.MP4": {
+    "title": "Howl and Sophie",
+    "year": 2024,
+    "medium": "Digital",
+    "category": "Speed Draws"
   }
 }

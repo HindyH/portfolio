@@ -168,9 +168,10 @@ def probe_video_dimensions(path: Path) -> tuple[int, int]:
         ],
         capture_output=True, text=True, check=True,
     )
-    width_str, height_str = result.stdout.strip().split("x")
-    return int(width_str), int(height_str)
-
+    match = re.search(r"(\d+)x(\d+)", result.stdout)
+    if not match:
+        raise ValueError(f"could not parse video dimensions from ffprobe output: {result.stdout!r}")
+    return int(match.group(1)), int(match.group(2))
 
 def extract_poster_frame(path: Path, out_jpg: Path) -> None:
     # Grab a frame ~10% into the clip (falls back to the first frame for short clips)

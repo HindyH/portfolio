@@ -5,6 +5,7 @@ import type { PinnedMedia } from "@/types/media";
 
 const CYCLE_INTERVAL_MS = 3500;
 const FADE_MS = 700;
+const MAX_CONCURRENT_VIDEOS = 2; // avoids the corkboard feeling overwhelming when too many videos land at once
 
 interface Slot {
     id: string;
@@ -51,6 +52,13 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
     const poolsRef = useRef<Record<"landscape" | "portrait", PinnedMedia[]>>({ landscape: [], portrait: [] });
     const poolIndexRef = useRef<Record<"landscape" | "portrait", number>>({ landscape: 0, portrait: 0 });
     const keyCounterRef = useRef(0);
+    // keys of slot-media instances whose video has played through to the end (or which were never a video
+    // to begin with) - the swap cycle below only picks from slots that are eligible per this set, so a
+    // video still mid-playback never gets interrupted and swapped out early.
+    const videoEndedRef = useRef<Set<number>>(new Set());
+    const markVideoEnded = (key: number) => {
+        videoEndedRef.current.add(key);
+    };
 
     const refillPools = (source: PinnedMedia[]) => {
         poolsRef.current = {
@@ -75,9 +83,19 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
         return item;
     };
 
-    const nextMediaForSlot = (orientation: "landscape" | "portrait"): PinnedMedia | null => {
+    const nextMediaForSlot = (orientation: "landscape" | "portrait", avoidVideo: boolean): PinnedMedia | null => {
         if (media.length === 0) return null;
-        return drawFrom(orientation) ?? drawFrom(orientation === "landscape" ? "portrait" : "landscape");
+        // draw up to media.length times so we get a full pass over everything available before giving up -
+        // this just skips past videos when the cap is already reached, letting the pool's own rotation
+        // catch them again on a later draw once a video slot frees up.
+        let fallback: PinnedMedia | null = null;
+        for (let i = 0; i < media.length; i++) {
+            const item = drawFrom(orientation) ?? drawFrom(orientation === "landscape" ? "portrait" : "landscape");
+            if (!item) return fallback;
+            if (!avoidVideo || item.type !== "video") return item;
+            fallback ??= item; // remember the first video seen, in case literally everything left is video
+        }
+        return fallback;
     };
 
     const [slots, setSlots] = useState<SlotState[]>([]);
@@ -87,12 +105,14 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
         refillPools(media);
 
         const activeSlots = SLOTS.slice(0, Math.min(SLOTS.length, media.length));
-        const initial = activeSlots.map((slot) => ({
-            slot,
-            media: nextMediaForSlot(slot.orientation),
-            imgVisible: false,
-            key: keyCounterRef.current++,
-        }));
+        let videoCount = 0;
+        const initial = activeSlots.map((slot) => {
+            const item = nextMediaForSlot(slot.orientation, videoCount >= MAX_CONCURRENT_VIDEOS);
+            const key = keyCounterRef.current++;
+            if (item?.type !== "video") markVideoEnded(key); // non-video slots are always swap-eligible
+            else videoCount++;
+            return { slot, media: item, imgVisible: false, key };
+        });
         // eslint-disable-next-line react-hooks/set-state-in-effect
         setSlots(initial);
 
@@ -111,7 +131,12 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
         const interval = setInterval(() => {
             setSlots((prev) => {
                 if (prev.length === 0) return prev;
-                const idx = Math.floor(Math.random() * prev.length);
+                const eligible = prev
+                    .map((s, i) => ({ s, i }))
+                    .filter(({ s }) => s.media?.type !== "video" || videoEndedRef.current.has(s.key))
+                    .map(({ i }) => i);
+                if (eligible.length === 0) return prev; // every visible video is still mid-playback, try again next tick
+                const idx = eligible[Math.floor(Math.random() * eligible.length)];
                 const next = [...prev];
                 next[idx] = { ...next[idx], imgVisible: false };
                 return next;
@@ -121,10 +146,13 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
                 setSlots((prev) => {
                     const idx = prev.findIndex((s) => !s.imgVisible);
                     if (idx === -1) return prev;
-                    const item = nextMediaForSlot(prev[idx].slot.orientation);
+                    const currentVideoCount = prev.filter((s, i) => i !== idx && s.media?.type === "video").length;
+                    const item = nextMediaForSlot(prev[idx].slot.orientation, currentVideoCount >= MAX_CONCURRENT_VIDEOS);
                     if (!item) return prev;
+                    const key = keyCounterRef.current++;
+                    if (item.type !== "video") markVideoEnded(key); // non-video slots are always swap-eligible
                     const next = [...prev];
-                    next[idx] = { ...next[idx], media: item, key: keyCounterRef.current++ };
+                    next[idx] = { ...next[idx], media: item, key };
                     return next;
                 });
                 setTimeout(() => {
@@ -160,13 +188,13 @@ export function Corkboard({ media, className = "" }: { media: PinnedMedia[]; cla
             <div
                 className="hidden lg:flex absolute left-0 top-0 h-full flex-col items-start justify-center gap-10 pl-[8%] pt-16 pb-6">
                 {leftItems.map((s) => (
-                    <PinnedItem key={s.slot.id} state={s}/>
+                    <PinnedItem key={s.slot.id} state={s} onVideoEnded={markVideoEnded}/>
                 ))}
             </div>
             <div
                 className="hidden lg:flex absolute right-0 top-0 h-full flex-col items-end justify-center gap-10 pr-[8%] pt-16 pb-6">
                 {rightItems.map((s) => (
-                    <PinnedItem key={s.slot.id} state={s}/>
+                    <PinnedItem key={s.slot.id} state={s} onVideoEnded={markVideoEnded}/>
                 ))}
             </div>
         </div>
@@ -223,7 +251,7 @@ export function Pushpin({size = 18, className = ""}: { size?: number; className?
     );
 }
 
-function PinnedItem({ state }: { state: SlotState }) {
+function PinnedItem({ state, onVideoEnded }: { state: SlotState; onVideoEnded: (key: number) => void }) {
     const { slot, media, imgVisible, key } = state;
     if (!media) return null;
     const { rotation, offsetX, width, height } = slot;
@@ -249,8 +277,8 @@ function PinnedItem({ state }: { state: SlotState }) {
                             className="h-full w-full object-cover"
                             autoPlay
                             muted
-                            loop
                             playsInline
+                            onEnded={() => onVideoEnded(key)}
                         />
                     ) : (
                         // eslint-disable-next-line @next/next/no-img-element
