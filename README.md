@@ -35,16 +35,16 @@ Processing and publishing new artwork/photos/videos requires Python (Pillow, col
 
 ## Project Structure
 ```
-app/               # Pages and routes
-lib/               # Shared utilities
-types/             # TypeScript types
-public/            # Static assets
-raw-art/, raw-photos/ # Source files (gitignored) - not committed
-artworks.json, photos.json # Gallery manifests
-metadata.json, metadata-photos.json # Per-item title/year/medium/category info
-process_images.py # Image + video processing script
-scripts/migrate-images-to-blob.mjs # Uploads processed media to Vercel Blob
-scripts/prune-unused-blobs.mjs # Cleans up orphaned files on Blob storage
+app/                                    # Pages and routes
+lib/                                    # Shared utilities
+types/                                  # TypeScript types
+public/                                 # Static assets
+raw-art/, raw-photos/                   # Source files (gitignored) - not committed
+artworks.json, photos.json              # Gallery manifests
+metadata.json, metadata-photos.json.    # Per-item title/year/medium/category info
+process_images.py                       # Image + video processing script
+scripts/migrate-images-to-blob.mjs      # Uploads processed media to Vercel Blob
+scripts/prune-unused-blobs.mjs          # Cleans up orphaned files on Blob storage
 ```
 
 ## Deployment
