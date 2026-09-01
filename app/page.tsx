@@ -9,7 +9,7 @@ import { getCorkboardMedia } from "@/lib/corkboard";
 const TAB_CARDS = [
     { href: "/artwork", label: "Artwork", description: "Fine art and graphic art" },
     { href: "mailto:hindyhamburger@gmail.com", label: "Email", description: "Get in touch" },
-    { href: "https://github.com/HindyH", label: "Github", description: "Code & repositories" },
+    { href: "https://github.com/HindyH", label: "GitHub", description: "Code & repositories" },
     { href: "https://www.linkedin.com/in/hindy-hamburger-1737a63b2/", label: "LinkedIn", description: "LinkedIn profile" },
     { href: "/photography", label: "Photography", description: "Photo collections" },
     { href: "/Resume.pdf", label: "Resume", description: "View my resume" },
