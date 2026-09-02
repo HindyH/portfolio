@@ -105,12 +105,13 @@
     "category": "Insects"
   },
   "green-heron.JPG": {
+  "green-heron.JPG": {
     "title": "Green Heron",
     "year": 2026,
-    "category": "Birds"
+    "category": "Juvenile Green Heron"
   },
   "ruffled-green-heron.JPG": {
-    "title": "Green Heron (2)",
+    "title": "Ruffled Green Heron",
     "year": 2026,
     "category": "Birds"
   },
@@ -167,7 +168,7 @@
   "woodpecker.JPG": {
     "title": "Downy Woodpecker",
     "year": 2026,
-    "category": "Scenery"
+    "category": "Birds"
   },
   "green_heron.JPG": {
     "title": "Juvenile Green Heron",

@@ -835,7 +835,7 @@
     },
     {
       "id": "green-heron",
-      "title": "Juvenile Green Heron",
+      "title": "Green Heron",
       "year": 2026,
       "medium": "",
       "dimensions": "",
@@ -1056,7 +1056,7 @@
     },
     {
       "id": "hariss-hawk2",
-      "title": "hariss-hawk2",
+      "title": "Harris's Hawk (2)",
       "year": 2026,
       "medium": "",
       "dimensions": "",
@@ -1842,7 +1842,7 @@
       "year": 2026,
       "medium": "",
       "dimensions": "",
-      "category": "Scenery",
+      "category": "Birds",
       "original_width": 4608,
       "original_height": 3456,
       "sizes": {
