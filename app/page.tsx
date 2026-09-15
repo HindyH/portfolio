@@ -42,7 +42,7 @@ export default function HomePage() {
                         </div>
                         <Pushpin size={20} />
                     </div>
-                    <h1 className="font-display-name relative inline-block px-8 py-4 text-4xl font-semibold tracking-tight text-black sm:text-5xl">
+                    <div className="font-display-name relative inline-block px-8 py-4 text-black">
                         <svg
                             aria-hidden
                             className="absolute inset-0 -z-10 h-full w-full"
@@ -68,8 +68,16 @@ export default function HomePage() {
                                 filter="url(#paper-grain)"
                             />
                         </svg>
-                        <span className="relative">Hindy Hamburger</span>
-                    </h1>
+                        <div className="relative flex flex-col items-center gap-1">
+                            <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">Hindy Hamburger</h1>
+                            <Link
+                                href="/about"
+                                className="pointer-events-auto text-lg font-semibold tracking-tight underline decoration-black/30 underline-offset-4 transition-opacity hover:opacity-70 sm:text-xl"
+                            >
+                                about me
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -119,7 +127,7 @@ function TabCard({
                 </a>
             ) : (
                 <Link href={href} className={noteClassName}>
-                {inner}
+                    {inner}
                 </Link>
             )}
         </div>
