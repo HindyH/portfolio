@@ -10,11 +10,11 @@ type NavLink =
 
 const NAV_LINKS: NavLink[] = [
   { href: "/artwork", label: "Artwork", internal: true, categoryKey: "artwork" },
-  { href: "mailto:hindyhamburger@gmail.com", label: "Email", internal: false },
-  { href: "https://github.com/HindyH", label: "Github", internal: false },
-  { href: "https://www.linkedin.com/in/hindy-hamburger-1737a63b2/", label: "LinkedIn", internal: false },
   { href: "/photography", label: "Photography", internal: true, categoryKey: "photography" },
   { href: "/Resume.pdf", label: "Resume", internal: false },
+  { href: "mailto:hindyhamburger@gmail.com", label: "Email", internal: false },
+  { href: "https://www.linkedin.com/in/hindy-hamburger/", label: "LinkedIn", internal: false },
+  { href: "https://github.com/HindyH", label: "GitHub", internal: false },
 ];
 
 function isExternalLinkNewTab(href: string) {

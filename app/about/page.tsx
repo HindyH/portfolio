@@ -3,14 +3,14 @@ import { Pushpin } from "@/app/components/corkboard/Corkboard";
 
 export const metadata = {
   title: "About Me | Hindy Hamburger",
-  description: "A little about Hindy Hamburger — the throughline between code and art.",
+  description: "A little about Hindy Hamburger: artist, designer, and aspiring art therapist.",
 };
 
 const PARAGRAPHS = [
   "Growing up, I was always making something. Drawing, painting, moving from one craft to the next. What I loved wasn't the finished product so much as the process. The thinking that goes into building something that didn't exist before.",
-  "In my junior year of high school, I took a computer science course and learned Java. I expected it to feel like a different world from art class. Instead, I recognized the same process immediately. Staring at a blank page, testing an idea, revising it, and slowly shaping something real out of nothing. Debugging a program felt a lot like reworking a painting that wasn't quite right yet.",
-  "That's why I majored in Computer Science and minored in Studio Art in college. I wanted both languages for the same underlying instinct. I loved wrestling with a professor's open-ended problem set as much as I loved finding ways to fold visual design into my technical projects.",
-  "When people hear \"computer science and studio art,\" I often get a surprised look, as if the two don't belong together. I've never seen it that way. Writing code and making art both start with the same question: what do I want to bring into existence, and how do I get there? For me, that question, and the willingness to sit with it, test ideas, and revise until something works, is at the heart of everything I do.",
+  "I saw that same idea from the other side as an art counselor at a small summer camp. I planned projects for campers of different ages, and what stayed with me wasn't how the finished pieces looked. It was watching kids settle into the process and make something that felt like their own. Either through our planned activities or just using the supplies as another medium to channel their energy and express themselves ",
+  "In college, I majored in Computer Science and minored in Studio Art. People are often surprised by that pairing, but both start the same way: a blank page, an idea worth testing, and a lot of revising before something real takes shape.",
+  "Now I'm working toward a career in art therapy, where the process is the whole point. Making art can be a way to slow down, work through something hard, or express what's difficult to put into words. I'm preparing for graduate study, starting with psychology coursework, and I keep making work in as many mediums as I can: drawing, painting, sculpture, digital illustration, crochet, and photography.",
 ];
 
 export default function AboutPage() {

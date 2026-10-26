@@ -32,10 +32,10 @@ const caveat = Caveat({
 
 export const metadata: Metadata = {
   title: "Hindy Hamburger",
-  description: "Portfolio of projects, code, and artwork.",
+  description: "Artwork by Hindy Hamburger: drawing, painting, sculpture, and digital illustration.",
   openGraph: {
     title: "Hindy Hamburger",
-    description: "Portfolio of projects, code, and artwork.",
+    description: "Artwork by Hindy Hamburger: drawing, painting, sculpture, and digital illustration.",
     url: "https://hindyhamburger.vercel.app",
     siteName: "Hindy Hamburger",
     images: [{
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary",
     title: "Hindy Hamburger",
-    description: "Portfolio of projects, code, and artwork.",
+    description: "Artwork by Hindy Hamburger: drawing, painting, sculpture, and digital illustration.",
     images: ["https://uojlriiutyii3nem.public.blob.vercel-storage.com/art/self-portrait/800.0541a6dd4d.jpg"],
   },
 };
